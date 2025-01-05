@@ -3,6 +3,7 @@ import { ClerkProvider, UserButton } from '@clerk/nextjs';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import Icon from './icon.svg';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -36,7 +37,12 @@ export default function RootLayout({
         >
           <header className="border-b bg-card">
             <div className="container h-16 px-4 flex items-center justify-between">
-              <h1 className="text-xl font-bold">Pokémon TCG Pocket Tracker</h1>
+              <div className="flex items-center gap-3">
+                <Icon className="w-8 h-8 inline-block" />
+                <h1 className="text-xl font-bold">
+                  Pokémon TCG Pocket Tracker
+                </h1>
+              </div>
               <UserButton />
             </div>
           </header>
