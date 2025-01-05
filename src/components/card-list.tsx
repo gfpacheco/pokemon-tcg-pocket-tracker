@@ -1,26 +1,6 @@
 'use client';
 
-import {
-  ColumnDef,
-  flexRender,
-  getCoreRowModel,
-  getFilteredRowModel,
-  getSortedRowModel,
-  useReactTable,
-} from '@tanstack/react-table';
-import { useEffect } from 'react';
-
 import { Checkbox } from '@/components/ui/checkbox';
-// import {
-//   DropdownMenu,
-//   DropdownMenuCheckboxItem,
-//   DropdownMenuContent,
-//   DropdownMenuItem,
-//   DropdownMenuLabel,
-//   DropdownMenuSeparator,
-//   DropdownMenuTrigger,
-// } from "@/components/ui/dropdown-menu"
-// import { Input } from "@/components/ui/input"
 import {
   Table,
   TableBody,
@@ -31,13 +11,51 @@ import {
 } from '@/components/ui/table';
 import { Card } from '@/lib/data/types';
 import { UserCard } from '@prisma/client';
+import {
+  ColumnDef,
+  flexRender,
+  getCoreRowModel,
+  getFilteredRowModel,
+  getSortedRowModel,
+  Table as ITable,
+  useReactTable,
+} from '@tanstack/react-table';
+import { useEffect } from 'react';
 import { CardRarityView } from './card-rarity-view';
 import { DataTableColumnHeader } from './data-table-column-header';
+
+function getGlobalSelectedState(table: ITable<Card>) {
+  const filteredRows = table.getFilteredRowModel().rows;
+  const selectedCount = filteredRows.filter((row) =>
+    row.getIsSelected(),
+  ).length;
+  return selectedCount === filteredRows.length
+    ? true
+    : selectedCount > 0
+    ? 'indeterminate'
+    : false;
+}
 
 export const columns: ColumnDef<Card>[] = [
   {
     id: 'select',
-    header: 'Owned',
+    header: ({ table }) => (
+      <div className="flex items-center">
+        <Checkbox
+          checked={getGlobalSelectedState(table)}
+          onCheckedChange={(value) => {
+            if (
+              window.confirm(
+                'This action will override your current selection. Do you want to continue?',
+              )
+            ) {
+              table.toggleAllRowsSelected(Boolean(value));
+            }
+          }}
+          aria-label="Mark as owned"
+        />
+      </div>
+    ),
     cell: ({ row }) => (
       <div className="flex items-center">
         <Checkbox
