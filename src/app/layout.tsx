@@ -1,4 +1,5 @@
-import { ClerkProvider } from '@clerk/nextjs';
+import { cn } from '@/lib/utils';
+import { ClerkProvider, UserButton } from '@clerk/nextjs';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Pokemon TCG Pocket Tracker',
+  title: 'Pokémon TCG Pocket Tracker',
   description: 'Maximize your chances of getting a new card!',
 };
 
@@ -27,8 +28,18 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={cn(
+            'bg-background antialiased',
+            geistSans.variable,
+            geistMono.variable,
+          )}
         >
+          <header className="border-b bg-card">
+            <div className="container h-16 px-4 flex items-center justify-between">
+              <h1 className="text-xl font-bold">Pokémon TCG Pocket Tracker</h1>
+              <UserButton />
+            </div>
+          </header>
           {children}
         </body>
       </html>

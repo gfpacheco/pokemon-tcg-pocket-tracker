@@ -8,7 +8,7 @@ datasource db {
 }
 
 model UserCard {
-  id         String @id @default(cuid())
-  userId     String
-  cardNumber Int
+  id     String @id @default(cuid())
+  userId String
+  cardId String
 }
