@@ -1,5 +1,12 @@
+import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { ClerkProvider, UserButton } from '@clerk/nextjs';
+import {
+  ClerkProvider,
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from '@clerk/nextjs';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -43,7 +50,16 @@ export default function RootLayout({
                   Pokémon TCG Pocket Tracker
                 </h1>
               </div>
-              <UserButton />
+              <SignedOut>
+                <SignInButton>
+                  <Button>
+                    Sign in to sync your collection across devices
+                  </Button>
+                </SignInButton>
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
             </div>
           </header>
           {children}
