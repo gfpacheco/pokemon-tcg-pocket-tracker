@@ -1,7 +1,7 @@
 'use client';
 
 import { CardList } from '@/components/card-list';
-import { Input } from '@/components/ui/input';
+import { SearchInput } from '@/components/search-input';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { cardSets } from '@/lib/data';
 import { promos } from '@/lib/data/promos';
@@ -24,12 +24,7 @@ export default function HomePage() {
             ))}
             <TabsTrigger value="Promos">Promos</TabsTrigger>
           </TabsList>
-          <Input
-            placeholder="Search..."
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            className="max-w-sm"
-          />
+          <SearchInput value={search} onChange={setSearch} />
         </div>
         {cardSets.map((cardSet) => (
           <TabsContent key={cardSet.name} value={cardSet.name}>
