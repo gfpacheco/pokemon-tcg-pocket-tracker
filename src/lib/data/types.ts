@@ -1,5 +1,6 @@
 export type CardSet = {
   name: string;
+  cardsPerRarity: Record<CardRarity, number>;
   packs: CardPack[];
   cards: Card[];
 };
@@ -19,6 +20,17 @@ export enum CardRarity {
   Star3 = 7,
   Crown1 = 8,
 }
+
+export const cardRarities = [
+  CardRarity.Diamond1,
+  CardRarity.Diamond2,
+  CardRarity.Diamond3,
+  CardRarity.Diamond4,
+  CardRarity.Star1,
+  CardRarity.Star2,
+  CardRarity.Star3,
+  CardRarity.Crown1,
+];
 
 export enum CardType {
   Pokemon = 'Pokémon',

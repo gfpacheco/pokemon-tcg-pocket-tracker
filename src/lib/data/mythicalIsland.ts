@@ -2,6 +2,16 @@ import { CardRarity, CardSet, CardType, PokemonType } from './types';
 
 export const mythicalIsland: CardSet = {
   name: 'Mythical Island',
+  cardsPerRarity: {
+    [CardRarity.Diamond1]: 32,
+    [CardRarity.Diamond2]: 23,
+    [CardRarity.Diamond3]: 8,
+    [CardRarity.Diamond4]: 5,
+    [CardRarity.Star1]: 6,
+    [CardRarity.Star2]: 10,
+    [CardRarity.Star3]: 1,
+    [CardRarity.Crown1]: 1,
+  },
   packs: [
     {
       name: 'Mew',

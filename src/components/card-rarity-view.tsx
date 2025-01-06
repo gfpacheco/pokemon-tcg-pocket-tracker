@@ -1,4 +1,5 @@
 import { CardRarity } from '@/lib/data/types';
+import { cn } from '@/lib/utils';
 
 function getRarityIcon(rarity: CardRarity) {
   switch (rarity) {
@@ -21,10 +22,27 @@ function getRarityIcon(rarity: CardRarity) {
   }
 }
 
-export type CardRarityViewProps = {
+export type CardRarityViewProps = React.HTMLAttributes<HTMLDivElement> & {
   rarity: CardRarity;
+  size?: 'sm' | 'md';
 };
 
-export function CardRarityView({ rarity }: CardRarityViewProps) {
-  return <div className="w-14 text-center">{getRarityIcon(rarity)}</div>;
+export function CardRarityView({
+  className,
+  rarity,
+  size = 'md',
+  ...rest
+}: CardRarityViewProps) {
+  return (
+    <div
+      className={cn(
+        'inline-block text-center',
+        size === 'sm' ? 'text-xs w-15' : 'text-sm w-18',
+        className,
+      )}
+      {...rest}
+    >
+      {getRarityIcon(rarity)}
+    </div>
+  );
 }

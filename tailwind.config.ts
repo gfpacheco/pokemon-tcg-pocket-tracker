@@ -12,6 +12,10 @@ export default {
       center: true,
     },
     extend: {
+      width: {
+        15: '3.75rem',
+        18: '4.5rem',
+      },
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',

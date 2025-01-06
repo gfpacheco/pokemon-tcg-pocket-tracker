@@ -2,6 +2,16 @@ import { CardRarity, CardSet, CardType, PokemonType } from './types';
 
 export const geneticApex: CardSet = {
   name: 'Genetic Apex',
+  cardsPerRarity: {
+    [CardRarity.Diamond1]: 100,
+    [CardRarity.Diamond2]: 69,
+    [CardRarity.Diamond3]: 42,
+    [CardRarity.Diamond4]: 15,
+    [CardRarity.Star1]: 24,
+    [CardRarity.Star2]: 29,
+    [CardRarity.Star3]: 4,
+    [CardRarity.Crown1]: 3,
+  },
   packs: [
     {
       name: 'Mew Two',
