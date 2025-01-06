@@ -5,12 +5,33 @@ import { SearchInput } from '@/components/search-input';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { cardSets } from '@/lib/data';
 import { promos } from '@/lib/data/promos';
-import { UserCard } from '@prisma/client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+const STORAGE_KEY = 'cardsOwned';
 
 export default function HomePage() {
-  const userCards: UserCard[] = [];
+  const [cardsOwned, setCardsOwned] = useState<string[]>([]);
   const [search, setSearch] = useState('');
+
+  useEffect(() => {
+    const cardsOwned = localStorage.getItem(STORAGE_KEY);
+    if (cardsOwned) {
+      setCardsOwned(JSON.parse(cardsOwned));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(cardsOwned));
+  }, [cardsOwned]);
+
+  function handleCardOwnedChange(cardId: string, isOwned: boolean) {
+    setCardsOwned((prev) => {
+      if (isOwned) {
+        return [...prev, cardId];
+      }
+      return prev.filter((id) => id !== cardId);
+    });
+  }
 
   return (
     <div className="container px-4 py-8 flex flex-col gap-8">
@@ -29,14 +50,20 @@ export default function HomePage() {
         {cardSets.map((cardSet) => (
           <TabsContent key={cardSet.name} value={cardSet.name}>
             <CardList
-              cards={cardSet.cards}
-              userCards={userCards}
               search={search}
+              cards={cardSet.cards}
+              cardsOwned={cardsOwned}
+              onCardOwnedChange={handleCardOwnedChange}
             />
           </TabsContent>
         ))}
         <TabsContent value="Promos">
-          <CardList cards={promos} userCards={userCards} search={search} />
+          <CardList
+            search={search}
+            cards={promos}
+            cardsOwned={cardsOwned}
+            onCardOwnedChange={handleCardOwnedChange}
+          />
         </TabsContent>
       </Tabs>
     </div>

@@ -10,7 +10,6 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import { Card } from '@/lib/data/types';
-import { UserCard } from '@prisma/client';
 import {
   ColumnDef,
   flexRender,
@@ -20,7 +19,7 @@ import {
   Table as ITable,
   useReactTable,
 } from '@tanstack/react-table';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { CardRarityView } from './card-rarity-view';
 import { DataTableColumnHeader } from './data-table-column-header';
 
@@ -101,12 +100,30 @@ export const columns: ColumnDef<Card>[] = [
 ];
 
 export type CardListProps = React.HTMLAttributes<HTMLDivElement> & {
-  cards: Card[];
-  userCards: UserCard[];
   search: string;
+  cards: Card[];
+  cardsOwned: string[];
+  onCardOwnedChange: (cardId: string, isOwned: boolean) => void;
 };
 
-export function CardList({ cards, userCards, search, ...rest }: CardListProps) {
+export function CardList({
+  cards,
+  cardsOwned,
+  search,
+  onCardOwnedChange,
+  ...rest
+}: CardListProps) {
+  const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    setRowSelection(
+      cardsOwned.reduce<Record<string, boolean>>((acc, cardId) => {
+        acc[cardId] = true;
+        return acc;
+      }, {}),
+    );
+  }, [cardsOwned]);
+
   const table = useReactTable({
     data: cards,
     columns,
@@ -122,13 +139,28 @@ export function CardList({ cards, userCards, search, ...rest }: CardListProps) {
         rarity: cards[0].rarity !== undefined,
       },
       sorting: [{ id: 'number', desc: false }],
-      rowSelection: userCards.reduce<Record<string, boolean>>(
-        (acc, userCard) => {
-          acc[userCard.cardId] = true;
-          return acc;
-        },
-        {},
-      ),
+    },
+    state: {
+      rowSelection,
+    },
+    onRowSelectionChange: (updater) => {
+      const newRowSelection =
+        typeof updater === 'function' ? updater(rowSelection) : updater;
+      setRowSelection(newRowSelection);
+
+      const changedCards = Object.keys(newRowSelection)
+        .filter((key) => newRowSelection[key] !== rowSelection[key])
+        .concat(
+          Object.keys(rowSelection).filter(
+            (key) => newRowSelection[key] !== rowSelection[key],
+          ),
+        );
+
+      const uniqueChangedCards = [...new Set(changedCards)];
+
+      for (const cardId of uniqueChangedCards) {
+        onCardOwnedChange(cardId, newRowSelection[cardId]);
+      }
     },
   });
 
