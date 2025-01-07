@@ -1,4 +1,10 @@
-import { CardRarity, CardSet, CardType, PokemonType } from './types';
+import {
+  CardPackName,
+  CardRarity,
+  CardSet,
+  CardType,
+  PokemonType,
+} from './types';
 
 export const mythicalIsland: CardSet = {
   name: 'Mythical Island',
@@ -14,7 +20,7 @@ export const mythicalIsland: CardSet = {
   },
   packs: [
     {
-      name: 'Mew',
+      name: CardPackName.Mew,
       cardsPerRarity: {
         [CardRarity.Diamond1]: 32,
         [CardRarity.Diamond2]: 23,
@@ -35,7 +41,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-2',
@@ -44,7 +50,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-3',
@@ -53,7 +59,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-4',
@@ -62,7 +68,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-5',
@@ -71,7 +77,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-6',
@@ -80,7 +86,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-7',
@@ -89,7 +95,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-8',
@@ -98,7 +104,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-9',
@@ -107,7 +113,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-10',
@@ -116,7 +122,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-11',
@@ -125,7 +131,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-12',
@@ -134,7 +140,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-13',
@@ -143,7 +149,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-14',
@@ -152,7 +158,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-15',
@@ -161,7 +167,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-16',
@@ -170,7 +176,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-17',
@@ -179,7 +185,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-18',
@@ -188,7 +194,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-19',
@@ -197,7 +203,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-20',
@@ -206,7 +212,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-21',
@@ -215,7 +221,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-22',
@@ -224,7 +230,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-23',
@@ -233,7 +239,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-24',
@@ -242,7 +248,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-25',
@@ -251,7 +257,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-26',
@@ -260,7 +266,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-27',
@@ -269,7 +275,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-28',
@@ -278,7 +284,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-29',
@@ -287,7 +293,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-30',
@@ -296,7 +302,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-31',
@@ -305,7 +311,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-32',
@@ -314,7 +320,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-33',
@@ -323,7 +329,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-34',
@@ -332,7 +338,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-35',
@@ -341,7 +347,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-36',
@@ -350,7 +356,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-37',
@@ -359,7 +365,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-38',
@@ -368,7 +374,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-39',
@@ -377,7 +383,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-40',
@@ -386,7 +392,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-41',
@@ -395,7 +401,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-42',
@@ -404,7 +410,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-43',
@@ -413,7 +419,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-44',
@@ -422,7 +428,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-45',
@@ -431,7 +437,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-46',
@@ -440,7 +446,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-47',
@@ -449,7 +455,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-48',
@@ -458,7 +464,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-49',
@@ -467,7 +473,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-50',
@@ -476,7 +482,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-51',
@@ -485,7 +491,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-52',
@@ -494,7 +500,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-53',
@@ -503,7 +509,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-54',
@@ -512,7 +518,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-55',
@@ -521,7 +527,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-56',
@@ -530,7 +536,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-57',
@@ -539,7 +545,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-58',
@@ -548,7 +554,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-59',
@@ -557,7 +563,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-60',
@@ -566,7 +572,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-61',
@@ -575,7 +581,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-62',
@@ -584,7 +590,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-63',
@@ -592,7 +598,7 @@ export const mythicalIsland: CardSet = {
       name: 'Old Amber',
       rarity: CardRarity.Diamond1,
       type: CardType.Item,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-64',
@@ -600,7 +606,7 @@ export const mythicalIsland: CardSet = {
       name: 'Pokémon Flute',
       rarity: CardRarity.Diamond2,
       type: CardType.Item,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-65',
@@ -608,7 +614,7 @@ export const mythicalIsland: CardSet = {
       name: 'Mythical Slab',
       rarity: CardRarity.Diamond2,
       type: CardType.Item,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-66',
@@ -616,7 +622,7 @@ export const mythicalIsland: CardSet = {
       name: 'Budding Expeditioner',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-67',
@@ -624,7 +630,7 @@ export const mythicalIsland: CardSet = {
       name: 'Blue',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-68',
@@ -632,7 +638,7 @@ export const mythicalIsland: CardSet = {
       name: 'Leaf',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-69',
@@ -641,7 +647,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-70',
@@ -650,7 +656,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-71',
@@ -659,7 +665,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-72',
@@ -668,7 +674,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-73',
@@ -677,7 +683,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-74',
@@ -686,7 +692,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-75',
@@ -695,7 +701,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-76',
@@ -704,7 +710,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-77',
@@ -713,7 +719,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-78',
@@ -722,7 +728,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-79',
@@ -731,7 +737,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-80',
@@ -739,7 +745,7 @@ export const mythicalIsland: CardSet = {
       name: 'Budding Expeditioner',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-81',
@@ -747,7 +753,7 @@ export const mythicalIsland: CardSet = {
       name: 'Blue',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-82',
@@ -755,7 +761,7 @@ export const mythicalIsland: CardSet = {
       name: 'Leaf',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-83',
@@ -764,7 +770,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-84',
@@ -773,7 +779,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-85',
@@ -782,7 +788,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
     {
       id: 'A1a-86',
@@ -791,7 +797,7 @@ export const mythicalIsland: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
-      packs: ['Mew'],
+      packs: [CardPackName.Mew],
     },
   ],
 };

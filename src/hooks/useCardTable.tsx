@@ -1,6 +1,7 @@
 'use client';
 import { CardRarityView } from '@/components/card-rarity-view';
 import { DataTableColumnHeader } from '@/components/data-table-column-header';
+import { PackView } from '@/components/pack-view';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Card } from '@/lib/data/types';
 import {
@@ -87,6 +88,19 @@ const columns: ColumnDef<Card>[] = [
       <DataTableColumnHeader column={column} title="Pokémon Type" />
     ),
   },
+  {
+    accessorKey: 'packs',
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Packs" />
+    ),
+    cell: ({ row }) => (
+      <div className="flex gap-1">
+        {row.getValue<string[]>('packs').map((pack) => (
+          <PackView key={pack} pack={pack} />
+        ))}
+      </div>
+    ),
+  },
 ];
 
 export function useCardTable(
@@ -94,6 +108,7 @@ export function useCardTable(
   cards: Card[],
   search: string,
   onCardOwnedChange: (cardId: string, isOwned: boolean) => void,
+  isPromos?: boolean,
 ) {
   const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({});
 
@@ -118,7 +133,8 @@ export function useCardTable(
     initialState: {
       globalFilter: search,
       columnVisibility: {
-        rarity: cards[0].rarity !== undefined,
+        rarity: !isPromos,
+        packs: !isPromos,
       },
       sorting: [{ id: 'number', desc: false }],
     },

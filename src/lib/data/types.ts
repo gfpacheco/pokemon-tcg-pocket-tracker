@@ -5,8 +5,15 @@ export type CardSet = {
   cards: Card[];
 };
 
+export enum CardPackName {
+  Mewtwo = 'Mewtwo',
+  Charizard = 'Charizard',
+  Pikachu = 'Pikachu',
+  Mew = 'Mew',
+}
+
 export type CardPack = {
-  name: string;
+  name: CardPackName;
   cardsPerRarity: Record<CardRarity, number>;
 };
 

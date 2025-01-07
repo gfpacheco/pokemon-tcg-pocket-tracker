@@ -73,6 +73,7 @@ export default function HomePage() {
               cards={promos}
               cardsOwned={cardsOwned}
               onCardOwnedChange={handleCardOwnedChange}
+              isPromos
             />
           </div>
         </TabsContent>

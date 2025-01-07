@@ -18,6 +18,7 @@ export type CardListProps = React.HTMLAttributes<HTMLDivElement> & {
   cards: ICard[];
   cardsOwned: string[];
   onCardOwnedChange: (cardId: string, isOwned: boolean) => void;
+  isPromos?: boolean;
 };
 
 export function CardList({
@@ -25,9 +26,16 @@ export function CardList({
   cardsOwned,
   search,
   onCardOwnedChange,
+  isPromos,
   ...rest
 }: CardListProps) {
-  const table = useCardTable(cardsOwned, cards, search, onCardOwnedChange);
+  const table = useCardTable(
+    cardsOwned,
+    cards,
+    search,
+    onCardOwnedChange,
+    isPromos,
+  );
 
   return (
     <Card {...rest}>
