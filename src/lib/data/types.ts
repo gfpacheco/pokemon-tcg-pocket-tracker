@@ -65,5 +65,5 @@ export type Card = {
   rarity?: CardRarity;
   type: CardType;
   pokemonType?: PokemonType;
-  packs: string[];
+  packs: CardPackName[];
 };

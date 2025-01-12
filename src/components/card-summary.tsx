@@ -3,8 +3,10 @@
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import { useSetSummary } from '@/hooks/useSetSummary';
 import { CardRarity, CardSet, Card as ICard } from '@/lib/data/types';
+import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
+import { PackView } from './pack-view';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
 export type CardSummaryProps = React.HTMLAttributes<HTMLDivElement> & {
@@ -26,12 +28,10 @@ export function CardSummary({
     <div className={cn('flex gap-4', className)} {...rest}>
       <Card className="flex-1">
         <CardHeader>
-          <CardTitle>
-            Cards owned: {summary.cardsOwnedCount} / {summary.cardsCount}
-          </CardTitle>
+          <CardTitle className="text-center">By Rarity</CardTitle>
         </CardHeader>
-        {set && (
-          <CardContent>
+        <CardContent>
+          {set && (
             <Table className="text-center">
               <TableBody>
                 <TableRow>
@@ -100,10 +100,46 @@ export function CardSummary({
                 </TableRow>
               </TableBody>
             </Table>
-          </CardContent>
-        )}
+          )}
+        </CardContent>
       </Card>
-      <Card className="flex-1" />
+      <Card className="flex-1">
+        <CardHeader>
+          <CardTitle className="text-center">By Pack</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Table className="text-center">
+            <TableBody>
+              <TableRow>
+                <TableCell>Total cards</TableCell>
+                <TableCell>
+                  {summary.cardsOwnedCount} / {summary.cardsCount}
+                </TableCell>
+                <TableCell>
+                  {formatPercent(summary.cardsOwnedCount / summary.cardsCount)}
+                </TableCell>
+              </TableRow>
+              {set?.packs.map((pack) => (
+                <TableRow key={pack.name}>
+                  <TableCell>
+                    <PackView pack={pack.name} />
+                  </TableCell>
+                  <TableCell>
+                    {summary.cardsOwnedCountByPack[pack.name] ?? 0} /{' '}
+                    {summary.cardsCountByPack[pack.name] ?? 0}
+                  </TableCell>
+                  <TableCell>
+                    {formatPercent(
+                      (summary.cardsOwnedCountByPack[pack.name] ?? 0) /
+                        (summary.cardsCountByPack[pack.name] ?? 0),
+                    )}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </CardContent>
+      </Card>
       <Card className="flex-1" />
     </div>
   );
