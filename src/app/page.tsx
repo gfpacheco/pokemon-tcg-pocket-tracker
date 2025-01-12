@@ -35,49 +35,50 @@ export default function HomePage() {
   }
 
   return (
-    <div className="container px-4 py-8 flex flex-col gap-8">
-      <Tabs defaultValue={cardSets[0].name}>
-        <div className="flex items-center justify-between py-4">
-          <TabsList>
-            {cardSets.map((cardSet) => (
-              <TabsTrigger key={cardSet.name} value={cardSet.name}>
-                {cardSet.name}
-              </TabsTrigger>
-            ))}
-            <TabsTrigger value="Promos">Promos</TabsTrigger>
-          </TabsList>
-          <SearchInput value={search} onChange={setSearch} />
-        </div>
-        {cardSets.map((cardSet) => (
-          <TabsContent key={cardSet.name} value={cardSet.name}>
-            <div className="flex flex-col gap-4">
-              <CardSummary
-                set={cardSet}
-                cards={cardSet.cards}
-                cardsOwned={cardsOwned}
-              />
-              <CardList
-                search={search}
-                cards={cardSet.cards}
-                cardsOwned={cardsOwned}
-                onCardOwnedChange={handleCardOwnedChange}
-              />
-            </div>
-          </TabsContent>
-        ))}
-        <TabsContent value="Promos">
+    <Tabs
+      className="container px-4 py-8 flex flex-col gap-4"
+      defaultValue={cardSets[0].name}
+    >
+      <div className="flex items-center justify-between">
+        <TabsList>
+          {cardSets.map((cardSet) => (
+            <TabsTrigger key={cardSet.name} value={cardSet.name}>
+              {cardSet.name}
+            </TabsTrigger>
+          ))}
+          <TabsTrigger value="Promos">Promos</TabsTrigger>
+        </TabsList>
+        <SearchInput value={search} onChange={setSearch} />
+      </div>
+      {cardSets.map((cardSet) => (
+        <TabsContent key={cardSet.name} className="mt-0" value={cardSet.name}>
           <div className="flex flex-col gap-4">
-            <CardSummary cards={promos} cardsOwned={cardsOwned} />
+            <CardSummary
+              set={cardSet}
+              cards={cardSet.cards}
+              cardsOwned={cardsOwned}
+            />
             <CardList
               search={search}
-              cards={promos}
+              cards={cardSet.cards}
               cardsOwned={cardsOwned}
               onCardOwnedChange={handleCardOwnedChange}
-              isPromos
             />
           </div>
         </TabsContent>
-      </Tabs>
-    </div>
+      ))}
+      <TabsContent className="mt-0" value="Promos">
+        <div className="flex flex-col gap-4">
+          <CardSummary cards={promos} cardsOwned={cardsOwned} />
+          <CardList
+            search={search}
+            cards={promos}
+            cardsOwned={cardsOwned}
+            onCardOwnedChange={handleCardOwnedChange}
+            isPromos
+          />
+        </div>
+      </TabsContent>
+    </Tabs>
   );
 }
