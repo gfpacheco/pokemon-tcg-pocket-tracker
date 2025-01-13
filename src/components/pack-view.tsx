@@ -2,13 +2,16 @@ import { CardPackName } from '@/lib/data/types';
 import { cn } from '@/lib/utils';
 import { cva } from 'class-variance-authority';
 
+const classNamesByPack: Record<CardPackName, string> = {
+  [CardPackName.Mewtwo]: 'bg-purple-600 text-primary-foreground',
+  [CardPackName.Charizard]: 'bg-red-600 text-primary-foreground',
+  [CardPackName.Pikachu]: 'bg-yellow-400',
+  [CardPackName.Mew]: 'bg-pink-300',
+};
+
 const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {
   variants: {
-    pack: {
-      [CardPackName.Mewtwo]: 'bg-purple-600 text-primary-foreground',
-      [CardPackName.Charizard]: 'bg-red-600 text-primary-foreground',
-      [CardPackName.Pikachu]: 'bg-yellow-400',
-    } as Record<CardPackName, string>,
+    pack: classNamesByPack,
   },
 });
 
