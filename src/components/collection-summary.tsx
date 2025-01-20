@@ -40,14 +40,14 @@ export function CollectionSummary({
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond1]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Diamond1]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Diamond1]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star1} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star1]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Star1]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Star1]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -56,14 +56,14 @@ export function CollectionSummary({
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond2]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Diamond2]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Diamond2]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star2} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star2]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Star2]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Star2]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -72,14 +72,14 @@ export function CollectionSummary({
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond3]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Diamond3]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Diamond3]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star3} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star3]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Star3]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Star3]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -88,14 +88,14 @@ export function CollectionSummary({
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond4]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Diamond4]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Diamond4]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Crown1} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Crown1]} /{' '}
-                {/* {cardSet.cardsPerRarity[CardRarity.Crown1]} */}
+                {/* {cardSet.cardsByRarity[CardRarity.Crown1]} */}
               </TableCell>
             </TableRow>
           </TableBody>

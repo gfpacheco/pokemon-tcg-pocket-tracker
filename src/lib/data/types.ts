@@ -1,6 +1,6 @@
 export type CardSet = {
   name: string;
-  cardsPerRarity: Record<CardRarity, number>;
+  cardsByRarity: Record<CardRarity, number>;
   packs: CardPack[];
   cards: Card[];
 };
@@ -14,7 +14,7 @@ export enum CardPackName {
 
 export type CardPack = {
   name: CardPackName;
-  cardsPerRarity: Record<CardRarity, number>;
+  cardsByRarity: Record<CardRarity, number>;
 };
 
 export enum CardRarity {

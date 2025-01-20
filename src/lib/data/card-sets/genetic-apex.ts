@@ -8,7 +8,7 @@ import {
 
 export const geneticApex: CardSet = {
   name: 'Genetic Apex',
-  cardsPerRarity: {
+  cardsByRarity: {
     [CardRarity.Diamond1]: 100,
     [CardRarity.Diamond2]: 69,
     [CardRarity.Diamond3]: 42,
@@ -21,7 +21,7 @@ export const geneticApex: CardSet = {
   packs: [
     {
       name: CardPackName.Mewtwo,
-      cardsPerRarity: {
+      cardsByRarity: {
         [CardRarity.Diamond1]: 50,
         [CardRarity.Diamond2]: 35,
         [CardRarity.Diamond3]: 14,
@@ -34,7 +34,7 @@ export const geneticApex: CardSet = {
     },
     {
       name: CardPackName.Charizard,
-      cardsPerRarity: {
+      cardsByRarity: {
         [CardRarity.Diamond1]: 50,
         [CardRarity.Diamond2]: 35,
         [CardRarity.Diamond3]: 14,
@@ -47,7 +47,7 @@ export const geneticApex: CardSet = {
     },
     {
       name: CardPackName.Pikachu,
-      cardsPerRarity: {
+      cardsByRarity: {
         [CardRarity.Diamond1]: 50,
         [CardRarity.Diamond2]: 35,
         [CardRarity.Diamond3]: 14,

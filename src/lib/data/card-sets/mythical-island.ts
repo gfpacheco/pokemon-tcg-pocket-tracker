@@ -8,7 +8,7 @@ import {
 
 export const mythicalIsland: CardSet = {
   name: 'Mythical Island',
-  cardsPerRarity: {
+  cardsByRarity: {
     [CardRarity.Diamond1]: 32,
     [CardRarity.Diamond2]: 23,
     [CardRarity.Diamond3]: 8,
@@ -21,7 +21,7 @@ export const mythicalIsland: CardSet = {
   packs: [
     {
       name: CardPackName.Mew,
-      cardsPerRarity: {
+      cardsByRarity: {
         [CardRarity.Diamond1]: 32,
         [CardRarity.Diamond2]: 23,
         [CardRarity.Diamond3]: 8,
