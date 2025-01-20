@@ -13,6 +13,7 @@ import {
   useReactTable,
 } from '@tanstack/react-table';
 import { useEffect, useState } from 'react';
+import { useCardsOwned } from './useCardsOwned';
 
 function getGlobalSelectedState(table: ITable<Card>) {
   const filteredRows = table.getFilteredRowModel().rows;
@@ -104,12 +105,11 @@ const columns: ColumnDef<Card>[] = [
 ];
 
 export function useCardTable(
-  cardsOwned: string[],
   cards: Card[],
   search: string,
-  onCardOwnedChange: (cardId: string, isOwned: boolean) => void,
   isPromos?: boolean,
 ) {
+  const { cardsOwned, updateCardOwned } = useCardsOwned();
   const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
@@ -157,7 +157,7 @@ export function useCardTable(
       const uniqueChangedCards = [...new Set(changedCards)];
 
       for (const cardId of uniqueChangedCards) {
-        onCardOwnedChange(cardId, newRowSelection[cardId]);
+        updateCardOwned(cardId, newRowSelection[cardId]);
       }
     },
   });

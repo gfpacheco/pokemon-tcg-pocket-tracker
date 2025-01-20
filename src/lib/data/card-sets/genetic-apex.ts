@@ -4,7 +4,7 @@ import {
   CardSet,
   CardType,
   PokemonType,
-} from './types';
+} from '../types';
 
 export const geneticApex: CardSet = {
   name: 'Genetic Apex',

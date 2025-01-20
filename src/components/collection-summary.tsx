@@ -1,20 +1,20 @@
 'use client';
 
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
-import { useSetSummary } from '@/hooks/useSetSummary';
-import { CardRarity, CardSet } from '@/lib/data/types';
+import { useCollectionSummary } from '@/hooks/useCollectionSummary';
+import { CardRarity } from '@/lib/data/types';
 import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
-import { PackView } from './pack-view';
 import { Card, CardHeader, CardTitle } from './ui/card';
 
-export type SetSummaryProps = React.HTMLAttributes<HTMLDivElement> & {
-  cardSet: CardSet;
-};
+export type CollectionSummaryProps = React.HTMLAttributes<HTMLDivElement>;
 
-export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
-  const summary = useSetSummary(cardSet);
+export function CollectionSummary({
+  className,
+  ...rest
+}: CollectionSummaryProps) {
+  const summary = useCollectionSummary();
 
   return (
     <div className={cn('flex flex-col gap-4 md:flex-row', className)} {...rest}>
@@ -30,14 +30,14 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond1]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Diamond1]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Diamond1]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star1} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star1]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Star1]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Star1]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -46,14 +46,14 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond2]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Diamond2]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Diamond2]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star2} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star2]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Star2]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Star2]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -62,14 +62,14 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond3]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Diamond3]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Diamond3]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Star3} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Star3]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Star3]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Star3]} */}
               </TableCell>
             </TableRow>
             <TableRow>
@@ -78,14 +78,14 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Diamond4]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Diamond4]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Diamond4]} */}
               </TableCell>
               <TableCell>
                 <CardRarityView rarity={CardRarity.Crown1} size="sm" />
               </TableCell>
               <TableCell>
                 {summary.cardsOwnedCountByRarity[CardRarity.Crown1]} /{' '}
-                {cardSet.cardsPerRarity[CardRarity.Crown1]}
+                {/* {cardSet.cardsPerRarity[CardRarity.Crown1]} */}
               </TableCell>
             </TableRow>
           </TableBody>
@@ -106,7 +106,7 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
                 {formatPercent(summary.cardsOwnedCount / summary.cardsCount)}
               </TableCell>
             </TableRow>
-            {cardSet.packs.map((pack) => (
+            {/* {cardSet.packs.map((pack) => (
               <TableRow key={pack.name}>
                 <TableCell>
                   <PackView pack={pack.name} />
@@ -122,7 +122,7 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
                   )}
                 </TableCell>
               </TableRow>
-            ))}
+            ))} */}
           </TableBody>
         </Table>
       </Card>

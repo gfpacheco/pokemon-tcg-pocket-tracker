@@ -4,7 +4,7 @@ import {
   CardSet,
   CardType,
   PokemonType,
-} from './types';
+} from '../types';
 
 export const mythicalIsland: CardSet = {
   name: 'Mythical Island',

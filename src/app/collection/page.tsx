@@ -4,23 +4,12 @@ import { CardList } from '@/components/card-list';
 import { SearchInput } from '@/components/search-input';
 import { SetSummary } from '@/components/set-summary';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { useCardsOwned } from '@/hooks/useCardsOwned';
-import { cardSets } from '@/lib/data';
+import { cardSets } from '@/lib/data/card-sets';
 import { promos } from '@/lib/data/promos';
 import { useState } from 'react';
 
 export default function CollectionPage() {
   const [search, setSearch] = useState('');
-  const [cardsOwned, setCardsOwned] = useCardsOwned();
-
-  function handleCardOwnedChange(cardId: string, isOwned: boolean) {
-    setCardsOwned((prev) => {
-      if (isOwned) {
-        return [...prev, cardId];
-      }
-      return prev.filter((id) => id !== cardId);
-    });
-  }
 
   return (
     <Tabs
@@ -45,25 +34,14 @@ export default function CollectionPage() {
       {cardSets.map((cardSet) => (
         <TabsContent key={cardSet.name} className="mt-0" value={cardSet.name}>
           <div className="flex flex-col gap-4">
-            <SetSummary cardSet={cardSet} cardsOwned={cardsOwned} />
-            <CardList
-              search={search}
-              cards={cardSet.cards}
-              cardsOwned={cardsOwned}
-              onCardOwnedChange={handleCardOwnedChange}
-            />
+            <SetSummary cardSet={cardSet} />
+            <CardList search={search} cards={cardSet.cards} />
           </div>
         </TabsContent>
       ))}
       <TabsContent className="mt-0" value="Promos">
         <div className="flex flex-col gap-4">
-          <CardList
-            search={search}
-            cards={promos}
-            cardsOwned={cardsOwned}
-            onCardOwnedChange={handleCardOwnedChange}
-            isPromos
-          />
+          <CardList search={search} cards={promos} isPromos />
         </div>
       </TabsContent>
     </Tabs>
