@@ -1,10 +1,7 @@
-import { cardSets } from '@/lib/data/card-sets';
-import { promos } from '@/lib/data/promos';
+import { allCards, allCardsByRarity } from '@/lib/data/all-cards';
 import { CardPackName, CardRarity } from '@/lib/data/types';
 import { useMemo } from 'react';
 import { useCardsOwned } from './useCardsOwned';
-
-const allCards = cardSets.flatMap((set) => set.cards).concat(promos);
 
 export function useCollectionSummary() {
   const { cardsOwned } = useCardsOwned();
@@ -46,9 +43,10 @@ export function useCollectionSummary() {
     return {
       cardsCount: allCards.length,
       cardsOwnedCount,
+      cardsCountByRarity: allCardsByRarity,
       cardsOwnedCountByRarity,
-      cardsOwnedCountByPack,
       cardsCountByPack,
+      cardsOwnedCountByPack,
     };
   }, [cardsOwned]);
 }

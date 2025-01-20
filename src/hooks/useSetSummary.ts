@@ -45,9 +45,10 @@ export function useSetSummary(cardSet: CardSet) {
     return {
       cardsCount: cardSet.cards.length,
       cardsOwnedCount,
+      cardsCountByRarity: cardSet.cardsByRarity,
       cardsOwnedCountByRarity,
-      cardsOwnedCountByPack,
       cardsCountByPack,
+      cardsOwnedCountByPack,
     };
-  }, [cardSet.cards, cardsOwned]);
+  }, [cardSet.cards, cardSet.cardsByRarity, cardsOwned]);
 }

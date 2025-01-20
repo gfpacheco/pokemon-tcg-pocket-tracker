@@ -9,6 +9,13 @@ import { CardRarityView } from './card-rarity-view';
 import { PackView } from './pack-view';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
+export const cardRaritiesForSummary = [
+  [CardRarity.Diamond1, CardRarity.Star1],
+  [CardRarity.Diamond2, CardRarity.Star2],
+  [CardRarity.Diamond3, CardRarity.Star3],
+  [CardRarity.Diamond4, CardRarity.Crown1],
+];
+
 export type SetSummaryProps = React.HTMLAttributes<HTMLDivElement> & {
   cardSet: CardSet;
 };
@@ -35,70 +42,24 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
         </CardHeader>
         <Table className="text-center">
           <TableBody>
-            <TableRow>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Diamond1} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Diamond1]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Diamond1]}
-              </TableCell>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Star1} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Star1]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Star1]}
-              </TableCell>
-            </TableRow>
-            <TableRow>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Diamond2} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Diamond2]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Diamond2]}
-              </TableCell>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Star2} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Star2]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Star2]}
-              </TableCell>
-            </TableRow>
-            <TableRow>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Diamond3} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Diamond3]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Diamond3]}
-              </TableCell>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Star3} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Star3]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Star3]}
-              </TableCell>
-            </TableRow>
-            <TableRow>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Diamond4} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Diamond4]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Diamond4]}
-              </TableCell>
-              <TableCell>
-                <CardRarityView rarity={CardRarity.Crown1} size="sm" />
-              </TableCell>
-              <TableCell>
-                {summary.cardsOwnedCountByRarity[CardRarity.Crown1]} /{' '}
-                {cardSet.cardsByRarity[CardRarity.Crown1]}
-              </TableCell>
-            </TableRow>
+            {cardRaritiesForSummary.map(([rarity1, rarity2]) => (
+              <TableRow key={rarity1}>
+                <TableCell>
+                  <CardRarityView rarity={rarity1} size="sm" />
+                </TableCell>
+                <TableCell>
+                  {summary.cardsOwnedCountByRarity[rarity1]} /{' '}
+                  {summary.cardsCountByRarity[rarity1]}
+                </TableCell>
+                <TableCell>
+                  <CardRarityView rarity={rarity2} size="sm" />
+                </TableCell>
+                <TableCell>
+                  {summary.cardsOwnedCountByRarity[rarity2]} /{' '}
+                  {summary.cardsCountByRarity[rarity2]}
+                </TableCell>
+              </TableRow>
+            ))}
           </TableBody>
         </Table>
       </Card>
