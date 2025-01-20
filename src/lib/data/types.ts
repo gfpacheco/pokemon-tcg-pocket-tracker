@@ -1,5 +1,10 @@
+export enum CardSetName {
+  GeneticApex = 'Genetic Apex',
+  MythicalIsland = 'Mythical Island',
+}
+
 export type CardSet = {
-  name: string;
+  name: CardSetName;
   cardsByRarity: Record<CardRarity, number>;
   packs: CardPack[];
   cards: Card[];
@@ -65,5 +70,6 @@ export type Card = {
   rarity?: CardRarity;
   type: CardType;
   pokemonType?: PokemonType;
+  set?: CardSetName;
   packs: CardPackName[];
 };

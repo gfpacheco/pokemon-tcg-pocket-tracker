@@ -2,6 +2,8 @@
 
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import { useCollectionSummary } from '@/hooks/useCollectionSummary';
+import { cardsCountBySet, cardSets } from '@/lib/data/card-sets';
+import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
 import { cardRaritiesForSummary } from './set-summary';
@@ -57,27 +59,36 @@ export function CollectionSummary({
       </Card>
       <Card className="flex-1 pb-2">
         <CardHeader>
-          <CardTitle className="text-center">By Pack</CardTitle>
+          <CardTitle className="text-center">By Set</CardTitle>
         </CardHeader>
         <Table className="text-center">
           <TableBody>
-            {/* {cardSet.packs.map((pack) => (
-              <TableRow key={pack.name}>
+            {cardSets.map((set) => (
+              <TableRow key={set.name}>
+                <TableCell>{set.name}</TableCell>
                 <TableCell>
-                  <PackView pack={pack.name} />
-                </TableCell>
-                <TableCell>
-                  {summary.cardsOwnedCountByPack[pack.name] ?? 0} /{' '}
-                  {summary.cardsCountByPack[pack.name] ?? 0}
+                  {summary.cardsOwnedCountBySet[set.name] ?? 0} /{' '}
+                  {cardsCountBySet[set.name] ?? 0}
                 </TableCell>
                 <TableCell>
                   {formatPercent(
-                    (summary.cardsOwnedCountByPack[pack.name] ?? 0) /
-                      (summary.cardsCountByPack[pack.name] ?? 0),
+                    (summary.cardsOwnedCountBySet[set.name] ?? 0) /
+                      (cardsCountBySet[set.name] ?? 0),
                   )}
                 </TableCell>
               </TableRow>
-            ))} */}
+            ))}
+            <TableRow>
+              <TableCell>Promo</TableCell>
+              <TableCell>
+                {summary.promoCardsOwnedCount} / {summary.promoCardsCount}
+              </TableCell>
+              <TableCell>
+                {formatPercent(
+                  summary.promoCardsOwnedCount / summary.promoCardsCount,
+                )}
+              </TableCell>
+            </TableRow>
           </TableBody>
         </Table>
       </Card>

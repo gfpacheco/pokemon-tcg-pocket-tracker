@@ -2,7 +2,7 @@ import { Card, PokemonType } from './types';
 
 import { CardType } from './types';
 
-export const promos: Card[] = [
+export const promo: Card[] = [
   {
     id: 'P-A-1',
     number: 1,

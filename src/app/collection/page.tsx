@@ -5,7 +5,7 @@ import { SearchInput } from '@/components/search-input';
 import { SetSummary } from '@/components/set-summary';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { cardSets } from '@/lib/data/card-sets';
-import { promos } from '@/lib/data/promos';
+import { promo } from '@/lib/data/promo';
 import { useState } from 'react';
 
 export default function CollectionPage() {
@@ -27,7 +27,7 @@ export default function CollectionPage() {
               {cardSet.name}
             </TabsTrigger>
           ))}
-          <TabsTrigger value="Promos">Promos</TabsTrigger>
+          <TabsTrigger value="Promo">Promo</TabsTrigger>
         </TabsList>
         <SearchInput value={search} onChange={setSearch} />
       </div>
@@ -39,9 +39,9 @@ export default function CollectionPage() {
           </div>
         </TabsContent>
       ))}
-      <TabsContent className="mt-0" value="Promos">
+      <TabsContent className="mt-0" value="Promo">
         <div className="flex flex-col gap-4">
-          <CardList search={search} cards={promos} isPromos />
+          <CardList search={search} cards={promo} isPromo />
         </div>
       </TabsContent>
     </Tabs>

@@ -16,11 +16,11 @@ import { Card } from './ui/card';
 export type CardListProps = React.HTMLAttributes<HTMLDivElement> & {
   search: string;
   cards: ICard[];
-  isPromos?: boolean;
+  isPromo?: boolean;
 };
 
-export function CardList({ cards, search, isPromos, ...rest }: CardListProps) {
-  const table = useCardTable(cards, search, isPromos);
+export function CardList({ cards, search, isPromo, ...rest }: CardListProps) {
+  const table = useCardTable(cards, search, isPromo);
 
   return (
     <Card {...rest}>

@@ -108,11 +108,7 @@ const columns: ColumnDef<Card>[] = [
   },
 ];
 
-export function useCardTable(
-  cards: Card[],
-  search: string,
-  isPromos?: boolean,
-) {
+export function useCardTable(cards: Card[], search: string, isPromo?: boolean) {
   const { cardsOwned, updateCardOwned } = useCardsOwned();
   const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({});
 
@@ -137,8 +133,8 @@ export function useCardTable(
     initialState: {
       globalFilter: search,
       columnVisibility: {
-        rarity: !isPromos,
-        packs: !isPromos,
+        rarity: !isPromo,
+        packs: !isPromo,
       },
       sorting: [{ id: 'number', desc: false }],
     },

@@ -1,8 +1,8 @@
 import { cardSets } from './card-sets';
-import { promos } from './promos';
+import { promo } from './promo';
 import { CardRarity } from './types';
 
-export const allCards = cardSets.flatMap((set) => set.cards).concat(promos);
+export const allCards = cardSets.flatMap((set) => set.cards).concat(promo);
 
 export const allCardsByRarity = allCards.reduce((acc, card) => {
   if (card.rarity) {

@@ -1,5 +1,7 @@
 import { allCards, allCardsByRarity } from '@/lib/data/all-cards';
-import { CardPackName, CardRarity } from '@/lib/data/types';
+import { cardsCountBySet } from '@/lib/data/card-sets';
+import { promo } from '@/lib/data/promo';
+import { CardRarity, CardSetName } from '@/lib/data/types';
 import { useMemo } from 'react';
 import { useCardsOwned } from './useCardsOwned';
 
@@ -18,25 +20,22 @@ export function useCollectionSummary() {
       [CardRarity.Star3]: 0,
       [CardRarity.Crown1]: 0,
     };
-    const cardsOwnedCountByPack: Partial<Record<CardPackName, number>> = {};
-    const cardsCountByPack: Partial<Record<CardPackName, number>> = {};
+    const cardsOwnedCountBySet: Partial<Record<CardSetName, number>> = {};
+    let promoCardsOwnedCount = 0;
 
     for (const cardId of cardsOwned) {
       const card = allCards.find((c) => c.id === cardId);
       if (card) {
         if (card.rarity) {
           cardsOwnedCountByRarity[card.rarity] += 1;
+        } else {
+          promoCardsOwnedCount += 1;
         }
 
-        for (const pack of card.packs) {
-          cardsOwnedCountByPack[pack] = (cardsOwnedCountByPack[pack] ?? 0) + 1;
+        if (card.set) {
+          cardsOwnedCountBySet[card.set] =
+            (cardsOwnedCountBySet[card.set] ?? 0) + 1;
         }
-      }
-    }
-
-    for (const card of allCards) {
-      for (const pack of card.packs) {
-        cardsCountByPack[pack] = (cardsCountByPack[pack] ?? 0) + 1;
       }
     }
 
@@ -45,8 +44,10 @@ export function useCollectionSummary() {
       cardsOwnedCount,
       cardsCountByRarity: allCardsByRarity,
       cardsOwnedCountByRarity,
-      cardsCountByPack,
-      cardsOwnedCountByPack,
+      cardsCountBySet,
+      cardsOwnedCountBySet,
+      promoCardsCount: promo.length,
+      promoCardsOwnedCount,
     };
   }, [cardsOwned]);
 }

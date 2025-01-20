@@ -2,12 +2,13 @@ import {
   CardPackName,
   CardRarity,
   CardSet,
+  CardSetName,
   CardType,
   PokemonType,
 } from '../types';
 
 export const geneticApex: CardSet = {
-  name: 'Genetic Apex',
+  name: CardSetName.GeneticApex,
   cardsByRarity: {
     [CardRarity.Diamond1]: 100,
     [CardRarity.Diamond2]: 69,
@@ -67,6 +68,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -76,6 +78,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -85,6 +88,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -94,6 +98,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -103,6 +108,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -112,6 +118,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -121,6 +128,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -130,6 +138,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -139,6 +148,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -148,6 +158,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -157,6 +168,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -166,6 +178,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -175,6 +188,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -184,6 +198,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -193,6 +208,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -202,6 +218,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -211,6 +228,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -220,6 +238,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -229,6 +248,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -238,6 +258,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -247,6 +268,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -256,6 +278,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -265,6 +288,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -274,6 +298,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -283,6 +308,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -292,6 +318,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -305,6 +332,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -318,6 +346,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -331,6 +360,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -344,6 +374,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -357,6 +388,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -366,6 +398,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -375,6 +408,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -384,6 +418,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -393,6 +428,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -402,6 +438,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -411,6 +448,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -420,6 +458,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -429,6 +468,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -438,6 +478,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -447,6 +488,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -456,6 +498,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -469,6 +512,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -482,6 +526,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -491,6 +536,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -500,6 +546,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -509,6 +556,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -518,6 +566,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -531,6 +580,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -540,6 +590,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -549,6 +600,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -562,6 +614,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -575,6 +628,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -584,6 +638,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -593,6 +648,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -602,6 +658,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -611,6 +668,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -624,6 +682,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -637,6 +696,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -646,6 +706,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -655,6 +716,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -664,6 +726,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -673,6 +736,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -682,6 +746,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -691,6 +756,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -700,6 +766,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -709,6 +776,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -718,6 +786,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -727,6 +796,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -736,6 +806,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -745,6 +816,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -754,6 +826,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -763,6 +836,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -772,6 +846,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -781,6 +856,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -790,6 +866,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -799,6 +876,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -808,6 +886,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -817,6 +896,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -826,6 +906,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -835,6 +916,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -844,6 +926,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -853,6 +936,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -862,6 +946,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -871,6 +956,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -880,6 +966,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -889,6 +976,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -898,6 +986,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -907,6 +996,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -916,6 +1006,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -925,6 +1016,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -938,6 +1030,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -951,6 +1044,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -964,6 +1058,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -973,6 +1068,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -982,6 +1078,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -991,6 +1088,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1000,6 +1098,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1009,6 +1108,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1018,6 +1118,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1027,6 +1128,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1036,6 +1138,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1045,6 +1148,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1054,6 +1158,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1063,6 +1168,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1076,6 +1182,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1089,6 +1196,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1098,6 +1206,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1107,6 +1216,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1116,6 +1226,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1129,6 +1240,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1142,6 +1254,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1155,6 +1268,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1164,6 +1278,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1173,6 +1288,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1182,6 +1298,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1191,6 +1308,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1200,6 +1318,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1213,6 +1332,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1226,6 +1346,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1235,6 +1356,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1244,6 +1366,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1253,6 +1376,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1262,6 +1386,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1271,6 +1396,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1280,6 +1406,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1289,6 +1416,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1298,6 +1426,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1307,6 +1436,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1316,6 +1446,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1325,6 +1456,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1334,6 +1466,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1343,6 +1476,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1356,6 +1490,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1369,6 +1504,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1382,6 +1518,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1395,6 +1532,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1408,6 +1546,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1421,6 +1560,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1430,6 +1570,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1439,6 +1580,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1448,6 +1590,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1457,6 +1600,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1466,6 +1610,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1475,6 +1620,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1484,6 +1630,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1493,6 +1640,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1502,6 +1650,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1511,6 +1660,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1520,6 +1670,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1529,6 +1680,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1538,6 +1690,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1547,6 +1700,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1556,6 +1710,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1565,6 +1720,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1574,6 +1730,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1583,6 +1740,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1592,6 +1750,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1601,6 +1760,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1610,6 +1770,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1619,6 +1780,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1628,6 +1790,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1641,6 +1804,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1654,6 +1818,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1667,6 +1832,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1680,6 +1846,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1689,6 +1856,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1698,6 +1866,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1707,6 +1876,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1716,6 +1886,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1725,6 +1896,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1734,6 +1906,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1743,6 +1916,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1752,6 +1926,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1761,6 +1936,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1770,6 +1946,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1779,6 +1956,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1788,6 +1966,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1797,6 +1976,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1810,6 +1990,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1823,6 +2004,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1832,6 +2014,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1841,6 +2024,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1850,6 +2034,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1859,6 +2044,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1868,6 +2054,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1877,6 +2064,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1886,6 +2074,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -1895,6 +2084,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1908,6 +2098,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1921,6 +2112,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1930,6 +2122,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1939,6 +2132,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1948,6 +2142,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1957,6 +2152,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -1966,6 +2162,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1975,6 +2172,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -1984,6 +2182,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -1997,6 +2196,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2010,6 +2210,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2023,6 +2224,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2032,6 +2234,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2041,6 +2244,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2050,6 +2254,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2059,6 +2264,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2068,6 +2274,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2077,6 +2284,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2086,6 +2294,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2095,6 +2304,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2104,6 +2314,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2113,6 +2324,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2122,6 +2334,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2135,6 +2348,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2148,6 +2362,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2161,6 +2376,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2173,6 +2389,7 @@ export const geneticApex: CardSet = {
       name: 'Helix Fossil',
       rarity: CardRarity.Diamond1,
       type: CardType.Item,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2181,6 +2398,7 @@ export const geneticApex: CardSet = {
       name: 'Dome Fossil',
       rarity: CardRarity.Diamond1,
       type: CardType.Item,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2189,6 +2407,7 @@ export const geneticApex: CardSet = {
       name: 'Old Amber',
       rarity: CardRarity.Diamond1,
       type: CardType.Item,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2197,6 +2416,7 @@ export const geneticApex: CardSet = {
       name: 'Erika',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2205,6 +2425,7 @@ export const geneticApex: CardSet = {
       name: 'Misty',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2213,6 +2434,7 @@ export const geneticApex: CardSet = {
       name: 'Blaine',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2221,6 +2443,7 @@ export const geneticApex: CardSet = {
       name: 'Koga',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2229,6 +2452,7 @@ export const geneticApex: CardSet = {
       name: 'Giovanni',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2237,6 +2461,7 @@ export const geneticApex: CardSet = {
       name: 'Brock',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2245,6 +2470,7 @@ export const geneticApex: CardSet = {
       name: 'Sabrina',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2253,6 +2479,7 @@ export const geneticApex: CardSet = {
       name: 'Lt. Surge',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2262,6 +2489,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2271,6 +2499,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2280,6 +2509,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2289,6 +2519,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2298,6 +2529,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2307,6 +2539,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2316,6 +2549,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2325,6 +2559,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2334,6 +2569,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2343,6 +2579,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2352,6 +2589,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2361,6 +2599,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2370,6 +2609,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2379,6 +2619,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2388,6 +2629,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2397,6 +2639,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2406,6 +2649,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2415,6 +2659,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2424,6 +2669,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2433,6 +2679,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2442,6 +2689,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2451,6 +2699,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2460,6 +2709,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2469,6 +2719,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2478,6 +2729,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2487,6 +2739,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2496,6 +2749,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2505,6 +2759,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2514,6 +2769,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2523,6 +2779,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2532,6 +2789,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2541,6 +2799,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2550,6 +2809,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2559,6 +2819,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2568,6 +2829,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2577,6 +2839,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2586,6 +2849,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2595,6 +2859,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2604,6 +2869,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2612,6 +2878,7 @@ export const geneticApex: CardSet = {
       name: 'Erika',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2620,6 +2887,7 @@ export const geneticApex: CardSet = {
       name: 'Misty',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2628,6 +2896,7 @@ export const geneticApex: CardSet = {
       name: 'Blaine',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2636,6 +2905,7 @@ export const geneticApex: CardSet = {
       name: 'Koga',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2644,6 +2914,7 @@ export const geneticApex: CardSet = {
       name: 'Giovanni',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2652,6 +2923,7 @@ export const geneticApex: CardSet = {
       name: 'Brock',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2660,6 +2932,7 @@ export const geneticApex: CardSet = {
       name: 'Sabrina',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2668,6 +2941,7 @@ export const geneticApex: CardSet = {
       name: 'Lt. Surge',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2677,6 +2951,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2686,6 +2961,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2695,6 +2971,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2704,6 +2981,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2713,6 +2991,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2722,6 +3001,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2731,6 +3011,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Charizard],
     },
     {
@@ -2740,6 +3021,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Pikachu],
     },
     {
@@ -2749,6 +3031,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [CardPackName.Mewtwo],
     },
     {
@@ -2758,6 +3041,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [],
     },
     {
@@ -2767,6 +3051,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2780,6 +3065,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Electric,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
@@ -2793,6 +3079,7 @@ export const geneticApex: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.GeneticApex,
       packs: [
         CardPackName.Mewtwo,
         CardPackName.Charizard,
