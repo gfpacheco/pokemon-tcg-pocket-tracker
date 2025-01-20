@@ -1,4 +1,4 @@
-import { Card, CardPackName, CardRarity, CardSet } from '@/lib/data/types';
+import { CardPackName, CardRarity, CardSet } from '@/lib/data/types';
 import { useMemo } from 'react';
 
 const regularOdds = {
@@ -62,14 +62,10 @@ const odds = {
   ),
 };
 
-export function useSetSummary(
-  set: CardSet | undefined,
-  cards: Card[],
-  cardsOwned: string[],
-) {
+export function useSetSummary(cardSet: CardSet, cardsOwned: string[]) {
   return useMemo(() => {
     const setCardsOwned = cardsOwned.filter((cardId) =>
-      cards.some((c) => c.id === cardId),
+      cardSet.cards.some((c) => c.id === cardId),
     );
     const cardsOwnedCount = setCardsOwned.length;
     const cardsOwnedCountByRarity = {
@@ -86,7 +82,7 @@ export function useSetSummary(
     const cardsCountByPack: Partial<Record<CardPackName, number>> = {};
 
     for (const cardId of setCardsOwned) {
-      const card = cards.find((c) => c.id === cardId);
+      const card = cardSet.cards.find((c) => c.id === cardId);
       if (card) {
         if (card.rarity) {
           cardsOwnedCountByRarity[card.rarity] += 1;
@@ -98,18 +94,18 @@ export function useSetSummary(
       }
     }
 
-    for (const card of cards) {
+    for (const card of cardSet.cards) {
       for (const pack of card.packs) {
         cardsCountByPack[pack] = (cardsCountByPack[pack] ?? 0) + 1;
       }
     }
 
     return {
-      cardsCount: cards.length,
+      cardsCount: cardSet.cards.length,
       cardsOwnedCount,
       cardsOwnedCountByRarity,
       cardsOwnedCountByPack,
       cardsCountByPack,
     };
-  }, [cards, cardsOwned]);
+  }, [cardSet.cards, cardsOwned]);
 }

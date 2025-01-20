@@ -3,7 +3,7 @@ import { CardRarityView } from '@/components/card-rarity-view';
 import { DataTableColumnHeader } from '@/components/data-table-column-header';
 import { PackView } from '@/components/pack-view';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Card } from '@/lib/data/types';
+import { Card, CardPackName } from '@/lib/data/types';
 import {
   ColumnDef,
   getCoreRowModel,
@@ -95,7 +95,7 @@ const columns: ColumnDef<Card>[] = [
     ),
     cell: ({ row }) => (
       <div className="flex gap-1">
-        {row.getValue<string[]>('packs').map((pack) => (
+        {row.getValue<CardPackName[]>('packs').map((pack) => (
           <PackView key={pack} pack={pack} />
         ))}
       </div>

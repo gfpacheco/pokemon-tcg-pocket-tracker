@@ -1,8 +1,8 @@
 'use client';
 
 import { CardList } from '@/components/card-list';
-import { CardSummary } from '@/components/card-summary';
 import { SearchInput } from '@/components/search-input';
+import { SetSummary } from '@/components/set-summary';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { cardSets } from '@/lib/data';
 import { promos } from '@/lib/data/promos';
@@ -53,11 +53,7 @@ export default function HomePage() {
       {cardSets.map((cardSet) => (
         <TabsContent key={cardSet.name} className="mt-0" value={cardSet.name}>
           <div className="flex flex-col gap-4">
-            <CardSummary
-              set={cardSet}
-              cards={cardSet.cards}
-              cardsOwned={cardsOwned}
-            />
+            <SetSummary cardSet={cardSet} cardsOwned={cardsOwned} />
             <CardList
               search={search}
               cards={cardSet.cards}
@@ -69,7 +65,6 @@ export default function HomePage() {
       ))}
       <TabsContent className="mt-0" value="Promos">
         <div className="flex flex-col gap-4">
-          <CardSummary cards={promos} cardsOwned={cardsOwned} />
           <CardList
             search={search}
             cards={promos}
