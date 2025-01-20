@@ -2,6 +2,7 @@
 import { CardRarityView } from '@/components/card-rarity-view';
 import { DataTableColumnHeader } from '@/components/data-table-column-header';
 import { PackView } from '@/components/pack-view';
+import { PokemonTypeView } from '@/components/pokemon-type-view';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Card, CardPackName } from '@/lib/data/types';
 import {
@@ -87,6 +88,9 @@ const columns: ColumnDef<Card>[] = [
     accessorKey: 'pokemonType',
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Pokémon Type" />
+    ),
+    cell: ({ row }) => (
+      <PokemonTypeView pokemonType={row.getValue('pokemonType')} />
     ),
   },
   {
