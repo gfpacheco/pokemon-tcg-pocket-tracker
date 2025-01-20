@@ -6,7 +6,7 @@ import { CardRarity } from '@/lib/data/types';
 import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
-import { Card, CardHeader, CardTitle } from './ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
 export type CollectionSummaryProps = React.HTMLAttributes<HTMLDivElement>;
 
@@ -18,6 +18,17 @@ export function CollectionSummary({
 
   return (
     <div className={cn('flex flex-col gap-4 md:flex-row', className)} {...rest}>
+      <Card className="flex-1 pb-2 flex flex-col">
+        <CardHeader>
+          <CardTitle className="text-center">Owned</CardTitle>
+        </CardHeader>
+        <CardContent className="flex-1 flex flex-col items-center justify-center">
+          <div className="text-7xl font-semibold">
+            {summary.cardsOwnedCount} / {summary.cardsCount}
+          </div>
+          <div>{summary.cardsCount - summary.cardsOwnedCount} missing</div>
+        </CardContent>
+      </Card>
       <Card className="flex-1 pb-2">
         <CardHeader>
           <CardTitle className="text-center">By Rarity</CardTitle>
@@ -126,7 +137,6 @@ export function CollectionSummary({
           </TableBody>
         </Table>
       </Card>
-      <Card className="flex-1 pb-2 md:block hidden" />
     </div>
   );
 }
