@@ -12,6 +12,8 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Icon from './icon.svg';
 
+import { NavLink } from '@/components/nav-link';
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -46,14 +48,22 @@ export default function RootLayout({
             <div className="container h-16 px-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <Icon className="w-8 h-8 inline-block" />
-                <h1 className="text-xl font-bold">
+                <h1 className="text-xl font-bold md:block hidden">
                   Pokémon TCG Pocket Tracker
                 </h1>
               </div>
+              <nav className="self-stretch flex gap-4">
+                <NavLink href="/">Home</NavLink>
+                <NavLink href="/collection">My Collection</NavLink>
+              </nav>
               <SignedOut>
                 <SignInButton>
                   <Button>
-                    Sign in to sync your collection across devices
+                    Sign in
+                    <span className="hidden md:block">
+                      {' '}
+                      to sync your collection across devices
+                    </span>
                   </Button>
                 </SignInButton>
               </SignedOut>
