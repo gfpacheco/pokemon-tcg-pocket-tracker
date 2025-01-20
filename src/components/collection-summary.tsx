@@ -3,7 +3,6 @@
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import { useCollectionSummary } from '@/hooks/useCollectionSummary';
 import { CardRarity } from '@/lib/data/types';
-import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
@@ -108,15 +107,6 @@ export function CollectionSummary({
         </CardHeader>
         <Table className="text-center">
           <TableBody>
-            <TableRow>
-              <TableCell>Total cards</TableCell>
-              <TableCell>
-                {summary.cardsOwnedCount} / {summary.cardsCount}
-              </TableCell>
-              <TableCell>
-                {formatPercent(summary.cardsOwnedCount / summary.cardsCount)}
-              </TableCell>
-            </TableRow>
             {/* {cardSet.packs.map((pack) => (
               <TableRow key={pack.name}>
                 <TableCell>

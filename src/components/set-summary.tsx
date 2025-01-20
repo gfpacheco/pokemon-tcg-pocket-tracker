@@ -108,15 +108,6 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
         </CardHeader>
         <Table className="text-center">
           <TableBody>
-            <TableRow>
-              <TableCell>Total cards</TableCell>
-              <TableCell>
-                {summary.cardsOwnedCount} / {summary.cardsCount}
-              </TableCell>
-              <TableCell>
-                {formatPercent(summary.cardsOwnedCount / summary.cardsCount)}
-              </TableCell>
-            </TableRow>
             {cardSet.packs.map((pack) => (
               <TableRow key={pack.name}>
                 <TableCell>
