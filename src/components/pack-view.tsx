@@ -3,12 +3,12 @@ import { cn } from '@/lib/utils';
 import { cva } from 'class-variance-authority';
 
 const classNamesByPack: Record<CardPackName, string> = {
-  [CardPackName.Mewtwo]: 'bg-purple-600 text-primary-foreground',
-  [CardPackName.Charizard]: 'bg-red-600 text-primary-foreground',
-  [CardPackName.Pikachu]: 'bg-yellow-400',
-  [CardPackName.Mew]: 'bg-pink-300',
-  [CardPackName.Dialga]: 'bg-blue-200',
-  [CardPackName.Palkia]: 'bg-pink-200',
+  [CardPackName.Mewtwo]: 'bg-pack-[purple-600,purple-400]',
+  [CardPackName.Charizard]: 'bg-pack-[purple-600,orange-400]',
+  [CardPackName.Pikachu]: 'bg-pack-[purple-600,yellow-400]',
+  [CardPackName.Mew]: 'bg-pack-[emerald-400,teal-300]',
+  [CardPackName.Dialga]: 'bg-pack-[gray-400,blue-600] text-primary-foreground',
+  [CardPackName.Palkia]: 'bg-pack-[gray-400,pink-400] text-primary-foreground',
 };
 
 const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {
@@ -17,14 +17,14 @@ const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {
   },
 });
 
-export type PackViewProps = React.HTMLAttributes<HTMLDivElement> & {
+export type PackViewProps = React.HTMLAttributes<HTMLSpanElement> & {
   pack: CardPackName;
 };
 
 export function PackView({ className, pack, ...rest }: PackViewProps) {
   return (
-    <div className={cn(buttonVariants({ pack }), className)} {...rest}>
+    <span className={cn(buttonVariants({ pack }), className)} {...rest}>
       {pack}
-    </div>
+    </span>
   );
 }

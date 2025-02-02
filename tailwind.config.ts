@@ -1,12 +1,9 @@
 import type { Config } from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
 
 export default {
   darkMode: ['class'],
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     container: {
       center: true,
@@ -65,6 +62,22 @@ export default {
       },
     },
   },
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require('tailwindcss-animate')],
+  plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require('tailwindcss-animate'),
+    plugin(({ matchUtilities, theme }) => {
+      matchUtilities({
+        'bg-pack': (value) => {
+          const [setColor, packColor] = value
+            .replace(/\-/g, '.')
+            .split(',')
+            .map((color) => theme(`colors.${color}`));
+
+          return {
+            background: `linear-gradient(0deg, ${setColor} 10%, ${packColor} 10%, ${packColor} 90%, ${setColor} 90%)`,
+          };
+        },
+      });
+    }),
+  ],
 } satisfies Config;
