@@ -1,6 +1,7 @@
 export enum CardSetName {
   GeneticApex = 'Genetic Apex',
   MythicalIsland = 'Mythical Island',
+  SpaceTimeSmackdown = 'Space-Time Smackdown',
 }
 
 export type CardSet = {
@@ -15,6 +16,8 @@ export enum CardPackName {
   Charizard = 'Charizard',
   Pikachu = 'Pikachu',
   Mew = 'Mew',
+  Dialga = 'Dialga',
+  Palkia = 'Palkia',
 }
 
 export type CardPack = {
@@ -48,13 +51,14 @@ export enum CardType {
   Pokemon = 'Pokémon',
   Trainer = 'Trainer',
   Item = 'Item',
+  Tool = 'Tool',
 }
 
 export enum PokemonType {
   Grass = 'Grass',
   Fire = 'Fire',
   Water = 'Water',
-  Electric = 'Electric',
+  Lightning = 'Lightning',
   Psychic = 'Psychic',
   Fighting = 'Fighting',
   Darkness = 'Darkness',

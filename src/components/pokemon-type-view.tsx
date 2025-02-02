@@ -6,7 +6,7 @@ const classNamesByPokemonType: Record<PokemonType, string> = {
   [PokemonType.Grass]: 'bg-green-600 text-primary-foreground',
   [PokemonType.Fire]: 'bg-red-600 text-primary-foreground',
   [PokemonType.Water]: 'bg-blue-600 text-primary-foreground',
-  [PokemonType.Electric]: 'bg-yellow-300',
+  [PokemonType.Lightning]: 'bg-yellow-300',
   [PokemonType.Psychic]: 'bg-fuchsia-300',
   [PokemonType.Fighting]: 'bg-orange-600 text-primary-foreground',
   [PokemonType.Darkness]: 'bg-cyan-800 text-primary-foreground',
