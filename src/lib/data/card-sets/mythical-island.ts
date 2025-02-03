@@ -1,3 +1,4 @@
+import { odds } from '../odds';
 import {
   CardPackName,
   CardRarity,
@@ -22,15 +23,23 @@ export const mythicalIsland: CardSet = {
   packs: [
     {
       name: CardPackName.Mew,
-      cardsByRarity: {
-        [CardRarity.Diamond1]: 32,
-        [CardRarity.Diamond2]: 23,
-        [CardRarity.Diamond3]: 8,
-        [CardRarity.Diamond4]: 5,
-        [CardRarity.Star1]: 6,
-        [CardRarity.Star2]: 10,
-        [CardRarity.Star3]: 1,
-        [CardRarity.Crown1]: 1,
+      cardOddsByRarity: {
+        [CardRarity.Diamond1]: odds[CardRarity.Diamond1].map(
+          (odds) => odds / 32,
+        ),
+        [CardRarity.Diamond2]: odds[CardRarity.Diamond2].map(
+          (odds) => odds / 23,
+        ),
+        [CardRarity.Diamond3]: odds[CardRarity.Diamond3].map(
+          (odds) => odds / 8,
+        ),
+        [CardRarity.Diamond4]: odds[CardRarity.Diamond4].map(
+          (odds) => odds / 5,
+        ),
+        [CardRarity.Star1]: odds[CardRarity.Star1].map((odds) => odds / 6),
+        [CardRarity.Star2]: odds[CardRarity.Star2].map((odds) => odds / 10),
+        [CardRarity.Star3]: odds[CardRarity.Star3].map((odds) => odds / 1),
+        [CardRarity.Crown1]: odds[CardRarity.Crown1].map((odds) => odds / 1),
       },
     },
   ],

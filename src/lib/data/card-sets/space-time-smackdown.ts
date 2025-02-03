@@ -1,3 +1,4 @@
+import { odds } from '../odds';
 import {
   CardPackName,
   CardRarity,
@@ -22,28 +23,44 @@ export const spaceTimeSmackdown: CardSet = {
   packs: [
     {
       name: CardPackName.Dialga,
-      cardsByRarity: {
-        [CardRarity.Diamond1]: 46,
-        [CardRarity.Diamond2]: 34,
-        [CardRarity.Diamond3]: 14,
-        [CardRarity.Diamond4]: 5,
-        [CardRarity.Star1]: 12,
-        [CardRarity.Star2]: 12,
-        [CardRarity.Star3]: 1,
-        [CardRarity.Crown1]: 2,
+      cardOddsByRarity: {
+        [CardRarity.Diamond1]: odds[CardRarity.Diamond1].map(
+          (odds) => odds / 46,
+        ),
+        [CardRarity.Diamond2]: odds[CardRarity.Diamond2].map(
+          (odds) => odds / 34,
+        ),
+        [CardRarity.Diamond3]: odds[CardRarity.Diamond3].map(
+          (odds) => odds / 14,
+        ),
+        [CardRarity.Diamond4]: odds[CardRarity.Diamond4].map(
+          (odds) => odds / 5,
+        ),
+        [CardRarity.Star1]: odds[CardRarity.Star1].map((odds) => odds / 12),
+        [CardRarity.Star2]: odds[CardRarity.Star2].map((odds) => odds / 12),
+        [CardRarity.Star3]: odds[CardRarity.Star3].map((odds) => odds / 1),
+        [CardRarity.Crown1]: odds[CardRarity.Crown1].map((odds) => odds / 2),
       },
     },
     {
       name: CardPackName.Palkia,
-      cardsByRarity: {
-        [CardRarity.Diamond1]: 44,
-        [CardRarity.Diamond2]: 36,
-        [CardRarity.Diamond3]: 14,
-        [CardRarity.Diamond4]: 5,
-        [CardRarity.Star1]: 12,
-        [CardRarity.Star2]: 12,
-        [CardRarity.Star3]: 1,
-        [CardRarity.Crown1]: 2,
+      cardOddsByRarity: {
+        [CardRarity.Diamond1]: odds[CardRarity.Diamond1].map(
+          (odds) => odds / 44,
+        ),
+        [CardRarity.Diamond2]: odds[CardRarity.Diamond2].map(
+          (odds) => odds / 36,
+        ),
+        [CardRarity.Diamond3]: odds[CardRarity.Diamond3].map(
+          (odds) => odds / 14,
+        ),
+        [CardRarity.Diamond4]: odds[CardRarity.Diamond4].map(
+          (odds) => odds / 5,
+        ),
+        [CardRarity.Star1]: odds[CardRarity.Star1].map((odds) => odds / 12),
+        [CardRarity.Star2]: odds[CardRarity.Star2].map((odds) => odds / 12),
+        [CardRarity.Star3]: odds[CardRarity.Star3].map((odds) => odds / 1),
+        [CardRarity.Crown1]: odds[CardRarity.Crown1].map((odds) => odds / 2),
       },
     },
   ],

@@ -75,13 +75,13 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
                   <PackView pack={pack.name} />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByPack[pack.name] ?? 0} /{' '}
-                  {summary.cardsCountByPack[pack.name] ?? 0}
+                  {summary.cardsOwnedCountByPack[pack.name]} /{' '}
+                  {summary.cardsCountByPack[pack.name]}
                 </TableCell>
                 <TableCell>
                   {formatPercent(
-                    (summary.cardsOwnedCountByPack[pack.name] ?? 0) /
-                      (summary.cardsCountByPack[pack.name] ?? 0),
+                    summary.cardsOwnedCountByPack[pack.name] /
+                      summary.cardsCountByPack[pack.name],
                   )}
                 </TableCell>
               </TableRow>

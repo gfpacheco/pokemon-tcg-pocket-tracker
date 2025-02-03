@@ -22,7 +22,7 @@ export enum CardPackName {
 
 export type CardPack = {
   name: CardPackName;
-  cardsByRarity: Record<CardRarity, number>;
+  cardOddsByRarity: Record<CardRarity, number[]>;
 };
 
 export enum CardRarity {

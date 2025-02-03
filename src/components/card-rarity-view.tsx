@@ -37,7 +37,7 @@ export function CardRarityView({
     <div
       className={cn(
         'inline-block text-center',
-        size === 'sm' ? 'text-xs w-15' : 'text-sm w-18',
+        size === 'sm' ? 'text-xs w-15' : 'text-sm w-15',
         className,
       )}
       {...rest}

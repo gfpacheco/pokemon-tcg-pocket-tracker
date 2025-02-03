@@ -20,7 +20,7 @@ export function useCollectionSummary() {
       [CardRarity.Star3]: 0,
       [CardRarity.Crown1]: 0,
     };
-    const cardsOwnedCountBySet: Partial<Record<CardSetName, number>> = {};
+    const cardsOwnedCountBySet = {} as Record<CardSetName, number>;
     let promoCardsOwnedCount = 0;
 
     for (const cardId of cardsOwned) {

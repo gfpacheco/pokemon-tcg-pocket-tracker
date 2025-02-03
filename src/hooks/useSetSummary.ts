@@ -20,8 +20,8 @@ export function useSetSummary(cardSet: CardSet) {
       [CardRarity.Star3]: 0,
       [CardRarity.Crown1]: 0,
     };
-    const cardsOwnedCountByPack: Partial<Record<CardPackName, number>> = {};
-    const cardsCountByPack: Partial<Record<CardPackName, number>> = {};
+    const cardsOwnedCountByPack = {} as Record<CardPackName, number>;
+    const cardsCountByPack = {} as Record<CardPackName, number>;
 
     for (const cardId of setCardsOwned) {
       const card = cardSet.cards.find((c) => c.id === cardId);

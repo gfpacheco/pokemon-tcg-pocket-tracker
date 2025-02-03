@@ -67,13 +67,13 @@ export function CollectionSummary({
               <TableRow key={set.name}>
                 <TableCell>{set.name}</TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountBySet[set.name] ?? 0} /{' '}
-                  {cardsCountBySet[set.name] ?? 0}
+                  {summary.cardsOwnedCountBySet[set.name]} /{' '}
+                  {cardsCountBySet[set.name]}
                 </TableCell>
                 <TableCell>
                   {formatPercent(
-                    (summary.cardsOwnedCountBySet[set.name] ?? 0) /
-                      (cardsCountBySet[set.name] ?? 0),
+                    summary.cardsOwnedCountBySet[set.name] /
+                      cardsCountBySet[set.name],
                   )}
                 </TableCell>
               </TableRow>
