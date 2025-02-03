@@ -48,14 +48,14 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
                   <CardRarityView rarity={rarity1} size="sm" />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByRarity[rarity1]} /{' '}
+                  {summary.cardsOwnedCountByRarity[rarity1] ?? 0} /{' '}
                   {summary.cardsCountByRarity[rarity1]}
                 </TableCell>
                 <TableCell>
                   <CardRarityView rarity={rarity2} size="sm" />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByRarity[rarity2]} /{' '}
+                  {summary.cardsOwnedCountByRarity[rarity2] ?? 0} /{' '}
                   {summary.cardsCountByRarity[rarity2]}
                 </TableCell>
               </TableRow>
@@ -75,12 +75,12 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
                   <PackView pack={pack.name} />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByPack[pack.name]} /{' '}
+                  {summary.cardsOwnedCountByPack[pack.name] ?? 0} /{' '}
                   {summary.cardsCountByPack[pack.name]}
                 </TableCell>
                 <TableCell>
                   {formatPercent(
-                    summary.cardsOwnedCountByPack[pack.name] /
+                    (summary.cardsOwnedCountByPack[pack.name] ?? 0) /
                       summary.cardsCountByPack[pack.name],
                   )}
                 </TableCell>

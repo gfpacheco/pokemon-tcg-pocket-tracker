@@ -1,10 +1,9 @@
 'use client';
 
-import { usePackSummary } from '@/hooks/usePackSummary';
-import { allPacks } from '@/lib/data/all-packs';
-import { formatPercent } from '@/lib/formatters/formatPercent';
+import { usePackTable } from '@/hooks/usePackTable';
+import { cn } from '@/lib/utils';
+import { flexRender } from '@tanstack/react-table';
 import { twMerge } from 'tailwind-merge';
-import { PackView } from './pack-view';
 import { Card } from './ui/card';
 import {
   Table,
@@ -18,41 +17,59 @@ import {
 export type PacksSummaryProps = React.HTMLAttributes<HTMLDivElement>;
 
 export function PacksSummary({ className, ...rest }: PacksSummaryProps) {
-  const { cardsCountByPack, cardsOwnedCountByPack, newCardChanceByPack } =
-    usePackSummary();
+  const table = usePackTable();
 
   return (
     <Card className={twMerge('pb-2 flex flex-col', className)} {...rest}>
-      <Table className="text-center">
+      <Table>
         <TableHeader>
-          <TableRow>
-            <TableHead>Pack</TableHead>
-            <TableHead>Cards</TableHead>
-            <TableHead>Owned (%)</TableHead>
-            <TableHead>New Card Chance</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {allPacks.map((pack) => (
-            <TableRow key={pack.name}>
-              <TableCell>
-                <PackView pack={pack.name} />
-              </TableCell>
-              <TableCell>
-                {cardsOwnedCountByPack[pack.name]} /{' '}
-                {cardsCountByPack[pack.name]}
-              </TableCell>
-              <TableCell>
-                {formatPercent(
-                  (cardsOwnedCountByPack[pack.name] ?? 0) /
-                    (cardsCountByPack[pack.name] ?? 0),
-                )}
-              </TableCell>
-              <TableCell>
-                {formatPercent(newCardChanceByPack[pack.name])}
-              </TableCell>
+          {table.getHeaderGroups().map((headerGroup) => (
+            <TableRow key={headerGroup.id}>
+              {headerGroup.headers.map((header) => {
+                return (
+                  <TableHead
+                    key={header.id}
+                    className={cn(header.column.id !== 'pack' && 'text-right')}
+                  >
+                    {header.isPlaceholder
+                      ? null
+                      : flexRender(
+                          header.column.columnDef.header,
+                          header.getContext(),
+                        )}
+                  </TableHead>
+                );
+              })}
             </TableRow>
           ))}
+        </TableHeader>
+        <TableBody>
+          {table.getRowModel().rows?.length ? (
+            table.getRowModel().rows.map((row) => (
+              <TableRow
+                key={row.id}
+                data-state={row.getIsSelected() && 'selected'}
+              >
+                {row.getVisibleCells().map((cell) => (
+                  <TableCell
+                    key={cell.id}
+                    className={cn(cell.column.id !== 'pack' && 'text-right')}
+                  >
+                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  </TableCell>
+                ))}
+              </TableRow>
+            ))
+          ) : (
+            <TableRow>
+              <TableCell
+                colSpan={table.getVisibleLeafColumns().length}
+                className="h-24 text-center"
+              >
+                No results.
+              </TableCell>
+            </TableRow>
+          )}
         </TableBody>
       </Table>
     </Card>

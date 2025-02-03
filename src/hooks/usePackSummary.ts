@@ -1,16 +1,24 @@
 import { allCards } from '@/lib/data/all-cards';
 import { allPacks } from '@/lib/data/all-packs';
 import { cardIndices } from '@/lib/data/odds';
-import { CardPackName } from '@/lib/data/types';
+import { CardPack, CardPackName } from '@/lib/data/types';
 import { useMemo } from 'react';
 import { useCardsOwned } from './useCardsOwned';
 
-export function usePackSummary() {
+export type PackSummary = {
+  pack: CardPack;
+  cardsCount: number;
+  cardsOwnedCount: number;
+  newCardChance: number;
+};
+
+export function usePackSummary(): PackSummary[] {
   const { cardsOwned } = useCardsOwned();
 
   return useMemo(() => {
     const cardsCountByPack = {} as Record<CardPackName, number>;
-    const cardsOwnedCountByPack = {} as Record<CardPackName, number>;
+    const cardsOwnedCountByPack: Partial<Record<CardPackName, number>> = {};
+    const cardsOwnedPercentageByPack = {} as Record<CardPackName, number>;
     const newCardChanceByPack = {} as Record<CardPackName, number>;
 
     for (const card of allCards) {
@@ -20,6 +28,9 @@ export function usePackSummary() {
         if (cardsOwned.includes(card.id)) {
           cardsOwnedCountByPack[pack] = (cardsOwnedCountByPack[pack] ?? 0) + 1;
         }
+
+        cardsOwnedPercentageByPack[pack] =
+          (cardsOwnedCountByPack[pack] ?? 0) / cardsCountByPack[pack];
       }
     }
 
@@ -42,10 +53,12 @@ export function usePackSummary() {
       }, 0);
     }
 
-    return {
-      cardsCountByPack,
-      cardsOwnedCountByPack,
-      newCardChanceByPack,
-    };
+    return allPacks.map((pack) => ({
+      pack,
+      cardsCount: cardsCountByPack[pack.name],
+      cardsOwnedCount: cardsOwnedCountByPack[pack.name] ?? 0,
+      cardsOwnedPercentage: cardsOwnedPercentageByPack[pack.name],
+      newCardChance: newCardChanceByPack[pack.name],
+    }));
   }, [cardsOwned]);
 }

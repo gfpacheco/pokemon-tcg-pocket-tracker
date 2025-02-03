@@ -10,24 +10,16 @@ export function useCollectionSummary() {
 
   return useMemo(() => {
     const cardsOwnedCount = cardsOwned.length;
-    const cardsOwnedCountByRarity = {
-      [CardRarity.Diamond1]: 0,
-      [CardRarity.Diamond2]: 0,
-      [CardRarity.Diamond3]: 0,
-      [CardRarity.Diamond4]: 0,
-      [CardRarity.Star1]: 0,
-      [CardRarity.Star2]: 0,
-      [CardRarity.Star3]: 0,
-      [CardRarity.Crown1]: 0,
-    };
-    const cardsOwnedCountBySet = {} as Record<CardSetName, number>;
+    const cardsOwnedCountByRarity: Partial<Record<CardRarity, number>> = {};
+    const cardsOwnedCountBySet: Partial<Record<CardSetName, number>> = {};
     let promoCardsOwnedCount = 0;
 
     for (const cardId of cardsOwned) {
       const card = allCards.find((c) => c.id === cardId);
       if (card) {
         if (card.rarity) {
-          cardsOwnedCountByRarity[card.rarity] += 1;
+          cardsOwnedCountByRarity[card.rarity] =
+            (cardsOwnedCountByRarity[card.rarity] ?? 0) + 1;
         } else {
           promoCardsOwnedCount += 1;
         }

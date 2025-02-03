@@ -42,14 +42,14 @@ export function CollectionSummary({
                   <CardRarityView rarity={rarity1} size="sm" />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByRarity[rarity1]} /{' '}
+                  {summary.cardsOwnedCountByRarity[rarity1] ?? 0} /{' '}
                   {summary.cardsCountByRarity[rarity1]}
                 </TableCell>
                 <TableCell>
                   <CardRarityView rarity={rarity2} size="sm" />
                 </TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountByRarity[rarity2]} /{' '}
+                  {summary.cardsOwnedCountByRarity[rarity2] ?? 0} /{' '}
                   {summary.cardsCountByRarity[rarity2]}
                 </TableCell>
               </TableRow>
@@ -67,12 +67,12 @@ export function CollectionSummary({
               <TableRow key={set.name}>
                 <TableCell>{set.name}</TableCell>
                 <TableCell>
-                  {summary.cardsOwnedCountBySet[set.name]} /{' '}
+                  {summary.cardsOwnedCountBySet[set.name] ?? 0} /{' '}
                   {cardsCountBySet[set.name]}
                 </TableCell>
                 <TableCell>
                   {formatPercent(
-                    summary.cardsOwnedCountBySet[set.name] /
+                    (summary.cardsOwnedCountBySet[set.name] ?? 0) /
                       cardsCountBySet[set.name],
                   )}
                 </TableCell>
