@@ -9,6 +9,8 @@ const classNamesByPack: Record<CardPackName, string> = {
   [CardPackName.Mew]: 'bg-pack-[emerald-400,teal-300]',
   [CardPackName.Dialga]: 'bg-pack-[gray-400,blue-600] text-primary-foreground',
   [CardPackName.Palkia]: 'bg-pack-[gray-400,pink-400] text-primary-foreground',
+  [CardPackName.Arceus]:
+    'bg-pack-[amber-400,yellow-600] text-primary-foreground',
 };
 
 const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {

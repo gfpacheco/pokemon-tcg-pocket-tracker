@@ -2,6 +2,7 @@ export enum CardSetName {
   GeneticApex = 'Genetic Apex',
   MythicalIsland = 'Mythical Island',
   SpaceTimeSmackdown = 'Space-Time Smackdown',
+  TriumphantLight = 'Triumphant Light',
 }
 
 export type CardSet = {
@@ -18,6 +19,7 @@ export enum CardPackName {
   Mew = 'Mew',
   Dialga = 'Dialga',
   Palkia = 'Palkia',
+  Arceus = 'Arceus',
 }
 
 export type CardPack = {
