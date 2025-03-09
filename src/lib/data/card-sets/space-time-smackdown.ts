@@ -72,6 +72,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -81,6 +82,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -90,6 +92,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -99,6 +102,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -108,6 +112,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -117,6 +122,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -126,6 +132,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -135,6 +142,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -144,6 +152,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -153,6 +162,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -162,6 +172,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -171,6 +182,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -180,6 +192,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -189,6 +202,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -198,6 +212,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -207,6 +222,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -216,6 +232,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -225,6 +242,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -234,6 +252,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -243,6 +262,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -252,6 +272,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -261,6 +282,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -270,6 +292,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -279,6 +302,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -288,6 +312,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -297,6 +322,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -306,6 +332,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -315,6 +342,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -324,6 +352,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -333,6 +362,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -342,6 +372,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -351,6 +382,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -360,6 +392,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -369,6 +402,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -378,6 +412,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -387,6 +422,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -396,6 +432,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -405,6 +442,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -414,6 +452,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -423,6 +462,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -432,6 +472,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -441,6 +482,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -450,6 +492,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -459,6 +502,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -468,6 +512,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -477,6 +522,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -486,6 +532,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -495,6 +542,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -504,6 +552,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -513,6 +562,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -522,6 +572,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -531,6 +582,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -540,6 +592,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -549,6 +602,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -558,6 +612,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -567,6 +622,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -576,6 +632,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -585,6 +642,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -594,6 +652,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -603,6 +662,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -612,6 +672,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -621,6 +682,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -630,6 +692,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -639,6 +702,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -648,6 +712,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -657,6 +722,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -666,6 +732,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -675,6 +742,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -684,6 +752,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -693,6 +762,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -702,6 +772,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -711,6 +782,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -720,6 +792,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -729,6 +802,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -738,6 +812,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -747,6 +822,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -756,6 +832,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -765,6 +842,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -774,6 +852,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -783,6 +862,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -792,6 +872,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -801,6 +882,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -810,6 +892,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -819,6 +902,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -828,6 +912,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -837,6 +922,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -846,6 +932,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -855,6 +942,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -864,6 +952,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -873,6 +962,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -882,6 +972,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -891,6 +982,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -900,6 +992,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -909,6 +1002,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -918,6 +1012,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -927,6 +1022,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -936,6 +1032,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -945,6 +1042,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -954,6 +1052,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -963,6 +1062,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -972,6 +1072,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -981,6 +1082,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -990,6 +1092,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -999,6 +1102,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1008,6 +1112,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1017,6 +1122,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1026,6 +1132,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1035,6 +1142,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1044,6 +1152,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1053,6 +1162,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1062,6 +1172,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1071,6 +1182,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1080,6 +1192,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1089,6 +1202,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1098,6 +1212,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1107,6 +1222,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1116,6 +1232,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1125,6 +1242,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1134,6 +1252,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1143,6 +1262,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1152,6 +1272,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1161,6 +1282,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1170,6 +1292,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1179,6 +1302,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1188,6 +1312,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond4,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1197,6 +1322,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1206,6 +1332,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1215,6 +1342,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1224,6 +1352,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1233,6 +1362,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1242,6 +1372,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1251,6 +1382,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1260,6 +1392,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1269,6 +1402,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1278,6 +1412,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1287,6 +1422,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1296,6 +1432,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1305,6 +1442,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1314,6 +1452,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1323,6 +1462,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1332,6 +1472,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1341,6 +1482,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1350,6 +1492,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Diamond3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1358,6 +1501,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Skull Fossil',
       rarity: CardRarity.Diamond1,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1366,6 +1510,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Armor Fossil',
       rarity: CardRarity.Diamond1,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1374,6 +1519,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Pokémon Communication',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1382,6 +1528,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Giant Cape',
       rarity: CardRarity.Diamond2,
       type: CardType.Tool,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1390,6 +1537,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Rocky Helmet',
       rarity: CardRarity.Diamond2,
       type: CardType.Tool,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1398,6 +1546,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Lum Berry',
       rarity: CardRarity.Diamond2,
       type: CardType.Tool,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1406,6 +1555,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Cyrus',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1414,6 +1564,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Team Galactic Grunt',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1422,6 +1573,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Cynthia',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1430,6 +1582,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Volkner',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1438,6 +1591,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Dawn',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1446,6 +1600,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Mars',
       rarity: CardRarity.Diamond2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1455,6 +1610,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1464,6 +1620,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1473,6 +1630,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1482,6 +1640,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1491,6 +1650,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1500,6 +1660,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1509,6 +1670,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1518,6 +1680,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1527,6 +1690,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1536,6 +1700,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1545,6 +1710,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1554,6 +1720,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1563,6 +1730,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1572,6 +1740,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1581,6 +1750,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1590,6 +1760,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1599,6 +1770,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1608,6 +1780,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1617,6 +1790,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1626,6 +1800,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Dragon,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1635,6 +1810,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1644,6 +1820,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1653,6 +1830,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1662,6 +1840,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1671,6 +1850,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1680,6 +1860,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1689,6 +1870,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1698,6 +1880,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1707,6 +1890,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1716,6 +1900,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1725,6 +1910,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1734,6 +1920,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1743,6 +1930,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1752,6 +1940,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1760,6 +1949,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Cyrus',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1768,6 +1958,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Team Galactic Grunt',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1776,6 +1967,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Cynthia',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1784,6 +1976,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Volkner',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1792,6 +1985,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Dawn',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1800,6 +1994,7 @@ export const spaceTimeSmackdown: CardSet = {
       name: 'Mars',
       rarity: CardRarity.Star2,
       type: CardType.Trainer,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1809,6 +2004,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Grass,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1818,6 +2014,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fire,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1827,6 +2024,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Lightning,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1836,6 +2034,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Psychic,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1845,6 +2044,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Fighting,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1854,6 +2054,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1863,6 +2064,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Darkness,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1872,6 +2074,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star2,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Colorless,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1881,6 +2084,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Palkia],
     },
     {
@@ -1890,6 +2094,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Star3,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga],
     },
     {
@@ -1899,6 +2104,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Water,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
     {
@@ -1908,6 +2114,7 @@ export const spaceTimeSmackdown: CardSet = {
       rarity: CardRarity.Crown1,
       type: CardType.Pokemon,
       pokemonType: PokemonType.Metal,
+      set: CardSetName.SpaceTimeSmackdown,
       packs: [CardPackName.Dialga, CardPackName.Palkia],
     },
   ],
