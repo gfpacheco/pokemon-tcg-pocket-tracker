@@ -8,7 +8,7 @@ import {
   UserButton,
 } from '@clerk/nextjs';
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Geist } from 'next/font/google';
 import './globals.css';
 import Icon from './icon.svg';
 
@@ -16,12 +16,7 @@ import { NavLink } from '@/components/nav-link';
 import { Providers } from '@/components/providers';
 
 const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+  variable: '--default-font-family',
   subsets: ['latin'],
 });
 
@@ -38,14 +33,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <Providers>
-        <html lang="en">
-          <body
-            className={cn(
-              'bg-background antialiased',
-              geistSans.variable,
-              geistMono.variable,
-            )}
-          >
+        <html
+          className={cn('bg-background antialiased', geistSans.variable)}
+          lang="en"
+        >
+          <body>
             <header className="border-b bg-card">
               <div className="container h-16 px-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
@@ -60,7 +52,7 @@ export default function RootLayout({
                 </nav>
                 <SignedOut>
                   <SignInButton>
-                    <Button>
+                    <Button className="gap-0">
                       Sign in
                       <span className="hidden md:block">
                         {' '}
