@@ -1,5 +1,6 @@
 'use client';
 
+import { ApiProvider } from '@/hooks/useApi';
 import { CardsOwnedProvider } from '@/hooks/useCardsOwned';
 
 export type ProvidersProps = {
@@ -7,5 +8,9 @@ export type ProvidersProps = {
 };
 
 export function Providers({ children }: ProvidersProps) {
-  return <CardsOwnedProvider>{children}</CardsOwnedProvider>;
+  return (
+    <ApiProvider>
+      <CardsOwnedProvider>{children}</CardsOwnedProvider>
+    </ApiProvider>
+  );
 }

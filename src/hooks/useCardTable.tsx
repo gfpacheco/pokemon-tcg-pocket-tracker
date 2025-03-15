@@ -135,17 +135,7 @@ export function useCardTable(cards: Card[], search: string, isPromo?: boolean) {
       const newCardsOwned =
         typeof updater === 'function' ? updater(cardsOwned) : updater;
 
-      const changedCards: Record<string, boolean> = {};
-
-      Object.keys(newCardsOwned)
-        .filter((key) => newCardsOwned[key] !== cardsOwned[key])
-        .forEach((key) => (changedCards[key] = newCardsOwned[key]));
-
-      Object.keys(cardsOwned)
-        .filter((key) => cardsOwned[key] !== newCardsOwned[key])
-        .forEach((key) => (changedCards[key] = newCardsOwned[key]));
-
-      updateCardsOwned(changedCards);
+      updateCardsOwned(newCardsOwned);
     },
   });
 

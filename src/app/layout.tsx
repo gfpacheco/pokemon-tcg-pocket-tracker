@@ -12,6 +12,7 @@ import { Geist } from 'next/font/google';
 import './globals.css';
 import Icon from './icon.svg';
 
+import { ApiIndicator } from '@/components/api-indicator';
 import { NavLink } from '@/components/nav-link';
 import { Providers } from '@/components/providers';
 
@@ -67,6 +68,7 @@ export default function RootLayout({
               </div>
             </header>
             {children}
+            <ApiIndicator />
           </body>
         </html>
       </Providers>
