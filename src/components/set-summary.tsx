@@ -29,8 +29,8 @@ export function SetSummary({ className, cardSet, ...rest }: SetSummaryProps) {
         <CardHeader>
           <CardTitle className="text-center">Owned</CardTitle>
         </CardHeader>
-        <CardContent className="flex-1 flex flex-col items-center justify-center">
-          <div className="text-7xl font-semibold">
+        <CardContent className="flex-1 flex flex-col items-center justify-center gap-4">
+          <div className="text-6xl font-semibold">
             {summary.cardsOwnedCount} / {summary.cardsCount}
           </div>
           <div>{summary.cardsCount - summary.cardsOwnedCount} missing</div>
