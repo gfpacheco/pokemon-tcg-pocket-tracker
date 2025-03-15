@@ -25,7 +25,7 @@ export function usePackSummary(): PackSummary[] {
       for (const pack of card.packs) {
         cardsCountByPack[pack] = (cardsCountByPack[pack] ?? 0) + 1;
 
-        if (cardsOwned.includes(card.id)) {
+        if (cardsOwned[card.id]) {
           cardsOwnedCountByPack[pack] = (cardsOwnedCountByPack[pack] ?? 0) + 1;
         }
 
@@ -34,7 +34,7 @@ export function usePackSummary(): PackSummary[] {
       }
     }
 
-    const notOwnedCards = allCards.filter((c) => !cardsOwned.includes(c.id));
+    const notOwnedCards = allCards.filter((c) => !cardsOwned[c.id]);
     for (const pack of allPacks) {
       const notOwnedCardsInPack = notOwnedCards.filter((c) =>
         c.packs.includes(pack.name),

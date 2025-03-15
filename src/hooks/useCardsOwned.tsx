@@ -5,8 +5,8 @@ const STORAGE_KEY = 'cardsOwned';
 import { createContext, useContext } from 'react';
 
 interface CardsOwnedContext {
-  cardsOwned: string[];
-  updateCardOwned: (cardId: string, isOwned: boolean) => void;
+  cardsOwned: Record<string, boolean>;
+  updateCardsOwned: (cards: Record<string, boolean>) => void;
 }
 
 const Context = createContext<CardsOwnedContext | null>(null);
@@ -24,7 +24,7 @@ export type CardsOwnedProviderProps = {
 };
 
 export function CardsOwnedProvider({ children }: CardsOwnedProviderProps) {
-  const [cardsOwned, setCardsOwned] = useState<string[]>([]);
+  const [cardsOwned, setCardsOwned] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const cardsOwned = localStorage.getItem(STORAGE_KEY);
@@ -37,17 +37,16 @@ export function CardsOwnedProvider({ children }: CardsOwnedProviderProps) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(cardsOwned));
   }, [cardsOwned]);
 
-  function updateCardOwned(cardId: string, isOwned: boolean) {
+  function updateCardsOwned(updatedCardsOwned: Record<string, boolean>) {
     setCardsOwned((prev) => {
-      if (isOwned) {
-        return [...prev, cardId];
-      }
-      return prev.filter((id) => id !== cardId);
+      const newCardsOwned = { ...prev, ...updatedCardsOwned };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(newCardsOwned));
+      return newCardsOwned;
     });
   }
 
   return (
-    <Context.Provider value={{ cardsOwned, updateCardOwned }}>
+    <Context.Provider value={{ cardsOwned, updateCardsOwned }}>
       {children}
     </Context.Provider>
   );

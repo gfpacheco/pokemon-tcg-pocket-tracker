@@ -13,7 +13,7 @@ import {
   Table as ITable,
   useReactTable,
 } from '@tanstack/react-table';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useCardsOwned } from './useCardsOwned';
 
 function getGlobalSelectedState(table: ITable<Card>) {
@@ -109,17 +109,7 @@ const columns: ColumnDef<Card>[] = [
 ];
 
 export function useCardTable(cards: Card[], search: string, isPromo?: boolean) {
-  const { cardsOwned, updateCardOwned } = useCardsOwned();
-  const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({});
-
-  useEffect(() => {
-    setRowSelection(
-      cardsOwned.reduce<Record<string, boolean>>((acc, cardId) => {
-        acc[cardId] = true;
-        return acc;
-      }, {}),
-    );
-  }, [cardsOwned]);
+  const { cardsOwned, updateCardsOwned } = useCardsOwned();
 
   const table = useReactTable({
     data: cards,
@@ -139,26 +129,23 @@ export function useCardTable(cards: Card[], search: string, isPromo?: boolean) {
       sorting: [{ id: 'number', desc: false }],
     },
     state: {
-      rowSelection,
+      rowSelection: cardsOwned,
     },
     onRowSelectionChange: (updater) => {
-      const newRowSelection =
-        typeof updater === 'function' ? updater(rowSelection) : updater;
-      setRowSelection(newRowSelection);
+      const newCardsOwned =
+        typeof updater === 'function' ? updater(cardsOwned) : updater;
 
-      const changedCards = Object.keys(newRowSelection)
-        .filter((key) => newRowSelection[key] !== rowSelection[key])
-        .concat(
-          Object.keys(rowSelection).filter(
-            (key) => newRowSelection[key] !== rowSelection[key],
-          ),
-        );
+      const changedCards: Record<string, boolean> = {};
 
-      const uniqueChangedCards = [...new Set(changedCards)];
+      Object.keys(newCardsOwned)
+        .filter((key) => newCardsOwned[key] !== cardsOwned[key])
+        .forEach((key) => (changedCards[key] = newCardsOwned[key]));
 
-      for (const cardId of uniqueChangedCards) {
-        updateCardOwned(cardId, newRowSelection[cardId]);
-      }
+      Object.keys(cardsOwned)
+        .filter((key) => cardsOwned[key] !== newCardsOwned[key])
+        .forEach((key) => (changedCards[key] = newCardsOwned[key]));
+
+      updateCardsOwned(changedCards);
     },
   });
 

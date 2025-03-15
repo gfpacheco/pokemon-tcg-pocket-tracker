@@ -6,17 +6,15 @@ export function useSetSummary(cardSet: CardSet) {
   const { cardsOwned } = useCardsOwned();
 
   return useMemo(() => {
-    const setCardsOwned = cardsOwned.filter((cardId) =>
-      cardSet.cards.some((c) => c.id === cardId),
-    );
-    const cardsOwnedCount = setCardsOwned.length;
+    let cardsOwnedCount = 0;
     const cardsOwnedCountByRarity: Partial<Record<CardRarity, number>> = {};
     const cardsOwnedCountByPack: Partial<Record<CardPackName, number>> = {};
     const cardsCountByPack = {} as Record<CardPackName, number>;
 
-    for (const cardId of setCardsOwned) {
-      const card = cardSet.cards.find((c) => c.id === cardId);
-      if (card) {
+    for (const card of cardSet.cards) {
+      if (cardsOwned[card.id]) {
+        cardsOwnedCount += 1;
+
         if (card.rarity) {
           cardsOwnedCountByRarity[card.rarity] =
             (cardsOwnedCountByRarity[card.rarity] ?? 0) + 1;
