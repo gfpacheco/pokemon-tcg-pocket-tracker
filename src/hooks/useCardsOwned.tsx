@@ -45,16 +45,20 @@ export function CardsOwnedProvider({ children }: CardsOwnedProviderProps) {
 
   useEffect(() => {
     const localStorageData = localStorage.getItem(STORAGE_KEY);
+    let localStorageCardsOwned: Record<string, boolean> = {};
 
     if (localStorageData) {
-      setCardsOwned(JSON.parse(localStorageData));
+      localStorageCardsOwned = JSON.parse(localStorageData);
+      setCardsOwned(localStorageCardsOwned);
     }
 
-    api.getCardsOwned().then((cardsOwned) => {
-      if (cardsOwned) {
-        setCardsOwned(cardsOwned);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(cardsOwned));
-        lastSavedCardsOwned.current = cardsOwned;
+    api.getCardsOwned().then((apiCardsOwned) => {
+      if (apiCardsOwned) {
+        const newCardsOwned = { ...localStorageCardsOwned, ...apiCardsOwned };
+        setCardsOwned(newCardsOwned);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(newCardsOwned));
+        lastSavedCardsOwned.current = newCardsOwned;
+        api.updateCardsOwned(newCardsOwned);
       }
     });
   }, [api]);
