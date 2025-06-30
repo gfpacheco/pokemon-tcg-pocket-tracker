@@ -9,11 +9,12 @@ import { CardRarityView } from './card-rarity-view';
 import { PackView } from './pack-view';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
-export const cardRaritiesForSummary = [
-  [CardRarity.Diamond1, CardRarity.Star1],
-  [CardRarity.Diamond2, CardRarity.Star2],
-  [CardRarity.Diamond3, CardRarity.Star3],
-  [CardRarity.Diamond4, CardRarity.Crown1],
+export const cardRaritiesForSummary: [CardRarity, CardRarity][] = [
+  ['♢', '☆'],
+  ['♢♢', '☆☆'],
+  ['♢♢♢', '☆☆☆'],
+  ['♢♢♢♢', '✨'],
+  ['♛', '✨✨'],
 ];
 
 export type SetSummaryProps = React.HTMLAttributes<HTMLDivElement> & {

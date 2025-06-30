@@ -1,7 +1,7 @@
-import { cardSets } from './card-sets';
+import { allSets } from './card-sets';
 import { CardPack, CardPackName } from './types';
 
-export const allPacks = cardSets.flatMap((set) => set.packs);
+export const allPacks = allSets.flatMap((set) => set.packs);
 
 export const allPacksByName = allPacks.reduce((acc, pack) => {
   acc[pack.name] = pack;

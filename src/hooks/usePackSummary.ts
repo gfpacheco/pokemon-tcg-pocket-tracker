@@ -1,6 +1,6 @@
-import { allCards } from '@/lib/data/all-cards';
-import { allPacks } from '@/lib/data/all-packs';
-import { cardIndices } from '@/lib/data/odds';
+import { allPacks } from '@/lib/data/card-packs';
+import { allCards, cardsCountByPack } from '@/lib/data/cards';
+import { cardIndices, getCardOdd } from '@/lib/data/odds';
 import { CardPack, CardPackName } from '@/lib/data/types';
 import { useMemo } from 'react';
 import { useCardsOwned } from './useCardsOwned';
@@ -16,15 +16,12 @@ export function usePackSummary(): PackSummary[] {
   const { cardsOwned } = useCardsOwned();
 
   return useMemo(() => {
-    const cardsCountByPack = {} as Record<CardPackName, number>;
     const cardsOwnedCountByPack: Partial<Record<CardPackName, number>> = {};
     const cardsOwnedPercentageByPack = {} as Record<CardPackName, number>;
     const newCardChanceByPack = {} as Record<CardPackName, number>;
 
     for (const card of allCards) {
       for (const pack of card.packs) {
-        cardsCountByPack[pack] = (cardsCountByPack[pack] ?? 0) + 1;
-
         if (cardsOwned[card.id]) {
           cardsOwnedCountByPack[pack] = (cardsOwnedCountByPack[pack] ?? 0) + 1;
         }
@@ -43,7 +40,7 @@ export function usePackSummary(): PackSummary[] {
       newCardChanceByPack[pack.name] = cardIndices.reduce((acc, cardIndex) => {
         const newCardOdds = notOwnedCardsInPack.reduce((acc, card) => {
           if (card.rarity) {
-            return acc + pack.cardOddsByRarity[card.rarity][cardIndex];
+            return acc + getCardOdd(pack, card.rarity, cardIndex);
           }
 
           return acc;

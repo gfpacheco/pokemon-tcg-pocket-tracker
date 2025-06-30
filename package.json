@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "import-data": "tsx src/scripts/import-data.ts",
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "prisma migrate deploy && next start",
@@ -32,11 +33,13 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "csv-parse": "^5.6.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
     "postcss": "^8",
     "prisma": "^6.4.1",
     "tailwindcss": "^4.0.12",
+    "tsx": "^4.20.3",
     "typescript": "^5"
   }
 }

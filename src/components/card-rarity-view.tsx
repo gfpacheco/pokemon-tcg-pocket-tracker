@@ -3,21 +3,25 @@ import { cn } from '@/lib/utils';
 
 function getRarityIcon(rarity: CardRarity) {
   switch (rarity) {
-    case CardRarity.Diamond1:
+    case '♢':
       return '🔶';
-    case CardRarity.Diamond2:
+    case '♢♢':
       return '🔶🔶';
-    case CardRarity.Diamond3:
+    case '♢♢♢':
       return '🔶🔶🔶';
-    case CardRarity.Diamond4:
+    case '♢♢♢♢':
       return '🔶🔶🔶🔶';
-    case CardRarity.Star1:
+    case '☆':
       return '⭐️';
-    case CardRarity.Star2:
+    case '☆☆':
       return '⭐️⭐️';
-    case CardRarity.Star3:
+    case '☆☆☆':
       return '⭐️⭐️⭐️';
-    case CardRarity.Crown1:
+    case '✨':
+      return '✨';
+    case '✨✨':
+      return '✨✨';
+    case '♛':
       return '👑';
   }
 }

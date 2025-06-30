@@ -2,7 +2,8 @@
 
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import { useCollectionSummary } from '@/hooks/useCollectionSummary';
-import { cardsCountBySet, cardSets } from '@/lib/data/card-sets';
+import { allSets } from '@/lib/data/card-sets';
+import { cardsCountBySet } from '@/lib/data/cards';
 import { formatPercent } from '@/lib/formatters/formatPercent';
 import { cn } from '@/lib/utils';
 import { CardRarityView } from './card-rarity-view';
@@ -63,7 +64,7 @@ export function CollectionSummary({
         </CardHeader>
         <Table className="text-center">
           <TableBody>
-            {cardSets.map((set) => (
+            {allSets.map((set) => (
               <TableRow key={set.name}>
                 <TableCell>{set.name}</TableCell>
                 <TableCell>

@@ -1,73 +1,80 @@
-export enum CardSetName {
-  GeneticApex = 'Genetic Apex',
-  MythicalIsland = 'Mythical Island',
-  SpaceTimeSmackdown = 'Space-Time Smackdown',
-  TriumphantLight = 'Triumphant Light',
-}
+export const cardSetNames = [
+  'Genetic Apex',
+  'Mythical Island',
+  'Space-Time Smackdown',
+  'Triumphant Light',
+  'Shining Revelry',
+  'Celestial Guardians',
+  'Extradimensional Crisis',
+  'Eevee Grove',
+] as const;
+
+export type CardSetName = (typeof cardSetNames)[number];
 
 export type CardSet = {
+  id: string;
   name: CardSetName;
   cardsByRarity: Record<CardRarity, number>;
   packs: CardPack[];
   cards: Card[];
 };
 
-export enum CardPackName {
-  Mewtwo = 'Mewtwo',
-  Charizard = 'Charizard',
-  Pikachu = 'Pikachu',
-  Mew = 'Mew',
-  Dialga = 'Dialga',
-  Palkia = 'Palkia',
-  Arceus = 'Arceus',
-}
+export const cardPackNames = [
+  'Mewtwo',
+  'Pikachu',
+  'Charizard',
+  'Mew',
+  'Dialga',
+  'Palkia',
+  'Arceus',
+  'Shiny',
+  'Lunala',
+  'Solgaleo',
+  'Buzzwole',
+  'Eevee',
+] as const;
+
+export type CardPackName = (typeof cardPackNames)[number];
 
 export type CardPack = {
   name: CardPackName;
-  cardOddsByRarity: Record<CardRarity, number[]>;
+  cardByRarity: Record<CardRarity, number>;
+  set: CardSetName;
 };
 
-export enum CardRarity {
-  Diamond1 = 1,
-  Diamond2 = 2,
-  Diamond3 = 3,
-  Diamond4 = 4,
-  Star1 = 5,
-  Star2 = 6,
-  Star3 = 7,
-  Crown1 = 8,
-}
-
 export const cardRarities = [
-  CardRarity.Diamond1,
-  CardRarity.Diamond2,
-  CardRarity.Diamond3,
-  CardRarity.Diamond4,
-  CardRarity.Star1,
-  CardRarity.Star2,
-  CardRarity.Star3,
-  CardRarity.Crown1,
-];
+  '♢',
+  '♢♢',
+  '♢♢♢',
+  '♢♢♢♢',
+  '☆',
+  '☆☆',
+  '☆☆☆',
+  '✨',
+  '✨✨',
+  '♛',
+] as const;
 
-export enum CardType {
-  Pokemon = 'Pokémon',
-  Trainer = 'Trainer',
-  Item = 'Item',
-  Tool = 'Tool',
-}
+export type CardRarity = (typeof cardRarities)[number];
 
-export enum PokemonType {
-  Grass = 'Grass',
-  Fire = 'Fire',
-  Water = 'Water',
-  Lightning = 'Lightning',
-  Psychic = 'Psychic',
-  Fighting = 'Fighting',
-  Darkness = 'Darkness',
-  Metal = 'Metal',
-  Dragon = 'Dragon',
-  Colorless = 'Colorless',
-}
+export const cardTypes = ['Pokémon', 'Trainer', 'Item', 'Tool'] as const;
+
+export type CardType = (typeof cardTypes)[number];
+
+export const pokemonTypes = [
+  'Grass',
+  'Fire',
+  'Water',
+  'Lightning',
+  'Psychic',
+  'Fighting',
+  'Darkness',
+  'Metal',
+  'Dragon',
+  'Colorless',
+] as const;
+
+export type PokemonType = (typeof pokemonTypes)[number];
 
 export type Card = {
   id: string;

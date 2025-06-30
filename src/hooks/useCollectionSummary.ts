@@ -1,5 +1,4 @@
-import { allCards, allCardsByRarity } from '@/lib/data/all-cards';
-import { cardsCountBySet } from '@/lib/data/card-sets';
+import { allCards, allCardsByRarity, cardsCountBySet } from '@/lib/data/cards';
 import { promo } from '@/lib/data/promo';
 import { CardRarity, CardSetName } from '@/lib/data/types';
 import { useMemo } from 'react';

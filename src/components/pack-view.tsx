@@ -3,14 +3,18 @@ import { cn } from '@/lib/utils';
 import { cva } from 'class-variance-authority';
 
 const classNamesByPack: Record<CardPackName, string> = {
-  [CardPackName.Mewtwo]: 'bg-pack-[purple-600,purple-400]',
-  [CardPackName.Charizard]: 'bg-pack-[purple-600,orange-400]',
-  [CardPackName.Pikachu]: 'bg-pack-[purple-600,yellow-400]',
-  [CardPackName.Mew]: 'bg-pack-[emerald-400,teal-300]',
-  [CardPackName.Dialga]: 'bg-pack-[gray-400,blue-600] text-primary-foreground',
-  [CardPackName.Palkia]: 'bg-pack-[gray-400,pink-400] text-primary-foreground',
-  [CardPackName.Arceus]:
-    'bg-pack-[amber-400,yellow-600] text-primary-foreground',
+  Mewtwo: 'bg-pack-[purple-600,purple-400]',
+  Charizard: 'bg-pack-[purple-600,orange-400]',
+  Pikachu: 'bg-pack-[purple-600,yellow-400]',
+  Mew: 'bg-pack-[emerald-400,teal-300]',
+  Dialga: 'bg-pack-[gray-400,blue-600] text-primary-foreground',
+  Palkia: 'bg-pack-[gray-400,pink-400] text-primary-foreground',
+  Arceus: 'bg-pack-[amber-400,yellow-900] text-primary-foreground',
+  Shiny: 'bg-pack-[pink-200,violet-100]',
+  Lunala: 'bg-pack-[blue-600,fuchsia-300]',
+  Solgaleo: 'bg-pack-[blue-600,sky-400]',
+  Buzzwole: 'bg-pack-[red-500,red-800] text-primary-foreground',
+  Eevee: 'bg-pack-[yellow-800,yellow-600] text-primary-foreground',
 };
 
 const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {
