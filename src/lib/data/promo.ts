@@ -100,7 +100,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-14",
     "number": 14,
-    "name": "Lapras EX",
+    "name": "Lapras ex",
     "type": "Pokémon",
     "pokemonType": "Water",
     "packs": []
@@ -188,7 +188,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-25",
     "number": 25,
-    "name": "Moltres EX",
+    "name": "Moltres ex",
     "type": "Pokémon",
     "pokemonType": "Fire",
     "packs": []
@@ -284,7 +284,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-37",
     "number": 37,
-    "name": "Cresselia EX",
+    "name": "Cresselia ex",
     "type": "Pokémon",
     "pokemonType": "Psychic",
     "packs": []
@@ -324,7 +324,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-42",
     "number": 42,
-    "name": "Darkrai EX",
+    "name": "Darkrai ex",
     "type": "Pokémon",
     "pokemonType": "Darkness",
     "packs": []
@@ -388,7 +388,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-50",
     "number": 50,
-    "name": "Mewtwo EX",
+    "name": "Mewtwo ex",
     "type": "Pokémon",
     "pokemonType": "Psychic",
     "packs": []
@@ -500,7 +500,7 @@ export const promo: Card[] = [
   {
     "id": "P-A-64",
     "number": 64,
-    "name": "Rayquaza EX",
+    "name": "Rayquaza ex",
     "type": "Pokémon",
     "pokemonType": "Colorless",
     "packs": []
@@ -727,6 +727,70 @@ export const promo: Card[] = [
     "name": "Eevee",
     "type": "Pokémon",
     "pokemonType": "Colorless",
+    "packs": []
+  },
+  {
+    "id": "P-A-93",
+    "number": 93,
+    "name": "Cleffa",
+    "type": "Pokémon",
+    "pokemonType": "Psychic",
+    "packs": []
+  },
+  {
+    "id": "P-A-94",
+    "number": 94,
+    "name": "Horsea",
+    "type": "Pokémon",
+    "pokemonType": "Water",
+    "packs": []
+  },
+  {
+    "id": "P-A-95",
+    "number": 95,
+    "name": "Chinchou",
+    "type": "Pokémon",
+    "pokemonType": "Lightning",
+    "packs": []
+  },
+  {
+    "id": "P-A-96",
+    "number": 96,
+    "name": "Houndoom",
+    "type": "Pokémon",
+    "pokemonType": "Darkness",
+    "packs": []
+  },
+  {
+    "id": "P-A-97",
+    "number": 97,
+    "name": "Kangaskhan",
+    "type": "Pokémon",
+    "pokemonType": "Colorless",
+    "packs": []
+  },
+  {
+    "id": "P-A-98",
+    "number": 98,
+    "name": "Blissey ex",
+    "type": "Pokémon",
+    "pokemonType": "Colorless",
+    "packs": []
+  },
+  {
+    "id": "P-A-99",
+    "number": 99,
+    "name": "Marill",
+    "type": "Pokémon",
+    "pokemonType": "Water",
+    "packs": []
+  },
+  {
+    "id": "P-A-100",
+    "number": 100,
+    "name": "Weavile",
+    "type": "Pokémon",
+    "pokemonType": "Darkness",
     "packs": []
   }
 ];

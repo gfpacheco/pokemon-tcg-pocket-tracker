@@ -106,7 +106,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-4",
         "number": 4,
-        "name": "Venusaur EX",
+        "name": "Venusaur ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -334,7 +334,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-23",
         "number": 23,
-        "name": "Exeggutor EX",
+        "name": "Exeggutor ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -500,7 +500,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-36",
         "number": 36,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -560,7 +560,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-41",
         "number": 41,
-        "name": "Arcanine EX",
+        "name": "Arcanine ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -636,7 +636,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-47",
         "number": 47,
-        "name": "Moltres EX",
+        "name": "Moltres ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -750,7 +750,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-56",
         "number": 56,
-        "name": "Blastoise EX",
+        "name": "Blastoise ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -994,7 +994,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-76",
         "number": 76,
-        "name": "Starmie EX",
+        "name": "Starmie ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -1090,7 +1090,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-84",
         "number": 84,
-        "name": "Articuno EX",
+        "name": "Articuno ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -1240,7 +1240,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-96",
         "number": 96,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -1336,7 +1336,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-104",
         "number": 104,
-        "name": "Zapdos EX",
+        "name": "Zapdos ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -1578,7 +1578,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-123",
         "number": 123,
-        "name": "Gengar EX",
+        "name": "Gengar ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -1650,7 +1650,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-129",
         "number": 129,
-        "name": "Mewtwo EX",
+        "name": "Mewtwo ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -1866,7 +1866,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-146",
         "number": 146,
-        "name": "Machamp EX",
+        "name": "Machamp ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -1950,7 +1950,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-153",
         "number": 153,
-        "name": "Marowak EX",
+        "name": "Marowak ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -2470,7 +2470,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-195",
         "number": 195,
-        "name": "Wigglytuff EX",
+        "name": "Wigglytuff ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -3145,7 +3145,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-251",
         "number": 251,
-        "name": "Venusaur EX",
+        "name": "Venusaur ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -3157,7 +3157,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-252",
         "number": 252,
-        "name": "Exeggutor EX",
+        "name": "Exeggutor ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -3169,7 +3169,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-253",
         "number": 253,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3181,7 +3181,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-254",
         "number": 254,
-        "name": "Arcanine EX",
+        "name": "Arcanine ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3193,7 +3193,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-255",
         "number": 255,
-        "name": "Moltres EX",
+        "name": "Moltres ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3205,7 +3205,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-256",
         "number": 256,
-        "name": "Blastoise EX",
+        "name": "Blastoise ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -3217,7 +3217,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-257",
         "number": 257,
-        "name": "Starmie EX",
+        "name": "Starmie ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -3229,7 +3229,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-258",
         "number": 258,
-        "name": "Articuno EX",
+        "name": "Articuno ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -3241,7 +3241,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-259",
         "number": 259,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -3253,7 +3253,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-260",
         "number": 260,
-        "name": "Zapdos EX",
+        "name": "Zapdos ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -3265,7 +3265,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-261",
         "number": 261,
-        "name": "Gengar EX",
+        "name": "Gengar ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -3277,7 +3277,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-262",
         "number": 262,
-        "name": "Mewtwo EX",
+        "name": "Mewtwo ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -3289,7 +3289,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-263",
         "number": 263,
-        "name": "Machamp EX",
+        "name": "Machamp ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -3301,7 +3301,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-264",
         "number": 264,
-        "name": "Marowak EX",
+        "name": "Marowak ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -3313,7 +3313,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-265",
         "number": 265,
-        "name": "Wigglytuff EX",
+        "name": "Wigglytuff ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -3413,7 +3413,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-274",
         "number": 274,
-        "name": "Moltres EX",
+        "name": "Moltres ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3425,7 +3425,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-275",
         "number": 275,
-        "name": "Articuno EX",
+        "name": "Articuno ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -3437,7 +3437,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-276",
         "number": 276,
-        "name": "Zapdos EX",
+        "name": "Zapdos ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -3449,7 +3449,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-277",
         "number": 277,
-        "name": "Gengar EX",
+        "name": "Gengar ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -3461,7 +3461,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-278",
         "number": 278,
-        "name": "Machamp EX",
+        "name": "Machamp ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -3473,7 +3473,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-279",
         "number": 279,
-        "name": "Wigglytuff EX",
+        "name": "Wigglytuff ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -3485,7 +3485,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-280",
         "number": 280,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3497,7 +3497,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-281",
         "number": 281,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -3509,7 +3509,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-282",
         "number": 282,
-        "name": "Mewtwo EX",
+        "name": "Mewtwo ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -3531,7 +3531,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-284",
         "number": 284,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -3545,7 +3545,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-285",
         "number": 285,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -3559,7 +3559,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1-286",
         "number": 286,
-        "name": "Mewtwo EX",
+        "name": "Mewtwo ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -3633,7 +3633,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-3",
         "number": 3,
-        "name": "Celebi EX",
+        "name": "Celebi ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -3813,7 +3813,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-18",
         "number": 18,
-        "name": "Gyarados EX",
+        "name": "Gyarados ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -3981,7 +3981,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-32",
         "number": 32,
-        "name": "Mew EX",
+        "name": "Mew ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -4149,7 +4149,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-46",
         "number": 46,
-        "name": "Aerodactyl EX",
+        "name": "Aerodactyl ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -4305,7 +4305,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-59",
         "number": 59,
-        "name": "Pidgeot EX",
+        "name": "Pidgeot ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -4491,7 +4491,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-75",
         "number": 75,
-        "name": "Celebi EX",
+        "name": "Celebi ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -4503,7 +4503,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-76",
         "number": 76,
-        "name": "Gyarados EX",
+        "name": "Gyarados ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -4515,7 +4515,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-77",
         "number": 77,
-        "name": "Mew EX",
+        "name": "Mew ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -4527,7 +4527,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-78",
         "number": 78,
-        "name": "Aerodactyl EX",
+        "name": "Aerodactyl ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -4539,7 +4539,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-79",
         "number": 79,
-        "name": "Pidgeot EX",
+        "name": "Pidgeot ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -4584,7 +4584,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-83",
         "number": 83,
-        "name": "Mew EX",
+        "name": "Mew ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -4596,7 +4596,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-84",
         "number": 84,
-        "name": "Aerodactyl EX",
+        "name": "Aerodactyl ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -4608,7 +4608,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-85",
         "number": 85,
-        "name": "Celebi EX",
+        "name": "Celebi ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -4620,7 +4620,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A1a-86",
         "number": 86,
-        "name": "Mew EX",
+        "name": "Mew ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -4759,7 +4759,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-7",
         "number": 7,
-        "name": "Yanmega EX",
+        "name": "Yanmega ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -5030,7 +5030,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-29",
         "number": 29,
-        "name": "Infernape EX",
+        "name": "Infernape ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -5279,7 +5279,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-49",
         "number": 49,
-        "name": "Palkia EX",
+        "name": "Palkia ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -5428,7 +5428,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-61",
         "number": 61,
-        "name": "Pachirisu EX",
+        "name": "Pachirisu ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -5503,7 +5503,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-67",
         "number": 67,
-        "name": "Mismagius EX",
+        "name": "Mismagius ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -5844,7 +5844,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-95",
         "number": 95,
-        "name": "Gallade EX",
+        "name": "Gallade ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -5892,7 +5892,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-99",
         "number": 99,
-        "name": "Weavile EX",
+        "name": "Weavile ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -6028,7 +6028,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-110",
         "number": 110,
-        "name": "Darkrai EX",
+        "name": "Darkrai ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -6138,7 +6138,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-119",
         "number": 119,
-        "name": "Dialga EX",
+        "name": "Dialga ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -6210,7 +6210,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-125",
         "number": 125,
-        "name": "Lickilicky EX",
+        "name": "Lickilicky ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -6863,7 +6863,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-180",
         "number": 180,
-        "name": "Yanmega EX",
+        "name": "Yanmega ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -6875,7 +6875,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-181",
         "number": 181,
-        "name": "Infernape EX",
+        "name": "Infernape ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -6887,7 +6887,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-182",
         "number": 182,
-        "name": "Palkia EX",
+        "name": "Palkia ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -6899,7 +6899,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-183",
         "number": 183,
-        "name": "Pachirisu EX",
+        "name": "Pachirisu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -6911,7 +6911,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-184",
         "number": 184,
-        "name": "Mismagius EX",
+        "name": "Mismagius ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -6923,7 +6923,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-185",
         "number": 185,
-        "name": "Gallade EX",
+        "name": "Gallade ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -6935,7 +6935,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-186",
         "number": 186,
-        "name": "Weavile EX",
+        "name": "Weavile ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -6947,7 +6947,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-187",
         "number": 187,
-        "name": "Darkrai EX",
+        "name": "Darkrai ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -6959,7 +6959,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-188",
         "number": 188,
-        "name": "Dialga EX",
+        "name": "Dialga ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -6971,7 +6971,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-189",
         "number": 189,
-        "name": "Lickilicky EX",
+        "name": "Lickilicky ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -7049,7 +7049,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-196",
         "number": 196,
-        "name": "Yanmega EX",
+        "name": "Yanmega ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -7061,7 +7061,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-197",
         "number": 197,
-        "name": "Infernape EX",
+        "name": "Infernape ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -7073,7 +7073,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-198",
         "number": 198,
-        "name": "Pachirisu EX",
+        "name": "Pachirisu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -7085,7 +7085,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-199",
         "number": 199,
-        "name": "Mismagius EX",
+        "name": "Mismagius ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -7097,7 +7097,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-200",
         "number": 200,
-        "name": "Gallade EX",
+        "name": "Gallade ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -7109,7 +7109,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-201",
         "number": 201,
-        "name": "Weavile EX",
+        "name": "Weavile ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -7121,7 +7121,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-202",
         "number": 202,
-        "name": "Darkrai EX",
+        "name": "Darkrai ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -7133,7 +7133,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-203",
         "number": 203,
-        "name": "Lickilicky EX",
+        "name": "Lickilicky ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -7145,7 +7145,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-204",
         "number": 204,
-        "name": "Palkia EX",
+        "name": "Palkia ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -7157,7 +7157,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-205",
         "number": 205,
-        "name": "Dialga EX",
+        "name": "Dialga ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -7169,7 +7169,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-206",
         "number": 206,
-        "name": "Palkia EX",
+        "name": "Palkia ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -7182,7 +7182,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2-207",
         "number": 207,
-        "name": "Dialga EX",
+        "name": "Dialga ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -7339,7 +7339,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-10",
         "number": 10,
-        "name": "Leafeon EX",
+        "name": "Leafeon ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -7483,7 +7483,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-22",
         "number": 22,
-        "name": "Glaceon EX",
+        "name": "Glaceon ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -7783,7 +7783,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-47",
         "number": 47,
-        "name": "Garchomp EX",
+        "name": "Garchomp ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -7903,7 +7903,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-57",
         "number": 57,
-        "name": "Probopass EX",
+        "name": "Probopass ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -8071,7 +8071,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-71",
         "number": 71,
-        "name": "Arceus EX",
+        "name": "Arceus ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -8199,7 +8199,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-82",
         "number": 82,
-        "name": "Leafeon EX",
+        "name": "Leafeon ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -8211,7 +8211,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-83",
         "number": 83,
-        "name": "Glaceon EX",
+        "name": "Glaceon ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -8223,7 +8223,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-84",
         "number": 84,
-        "name": "Garchomp EX",
+        "name": "Garchomp ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -8235,7 +8235,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-85",
         "number": 85,
-        "name": "Probopass EX",
+        "name": "Probopass ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -8247,7 +8247,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-86",
         "number": 86,
-        "name": "Arceus EX",
+        "name": "Arceus ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -8303,7 +8303,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-91",
         "number": 91,
-        "name": "Leafeon EX",
+        "name": "Leafeon ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -8315,7 +8315,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-92",
         "number": 92,
-        "name": "Glaceon EX",
+        "name": "Glaceon ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -8327,7 +8327,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-93",
         "number": 93,
-        "name": "Garchomp EX",
+        "name": "Garchomp ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -8339,7 +8339,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-94",
         "number": 94,
-        "name": "Probopass EX",
+        "name": "Probopass ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -8351,7 +8351,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-95",
         "number": 95,
-        "name": "Arceus EX",
+        "name": "Arceus ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -8363,7 +8363,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2a-96",
         "number": 96,
-        "name": "Arceus EX",
+        "name": "Arceus ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -8435,7 +8435,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-3",
         "number": 3,
-        "name": "Beedrill EX",
+        "name": "Beedrill ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -8519,7 +8519,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-10",
         "number": 10,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -8627,7 +8627,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-19",
         "number": 19,
-        "name": "Wugtrio EX",
+        "name": "Wugtrio ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -8663,7 +8663,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-22",
         "number": 22,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -8819,7 +8819,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-35",
         "number": 35,
-        "name": "Giratina EX",
+        "name": "Giratina ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -8915,7 +8915,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-43",
         "number": 43,
-        "name": "Lucario EX",
+        "name": "Lucario ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -8975,7 +8975,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-48",
         "number": 48,
-        "name": "Paldean Clodsire EX",
+        "name": "Paldean Clodsire ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -9047,7 +9047,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-54",
         "number": 54,
-        "name": "Tinkaton EX",
+        "name": "Tinkaton ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -9179,7 +9179,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-65",
         "number": 65,
-        "name": "Bibarel EX",
+        "name": "Bibarel ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -9343,7 +9343,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-79",
         "number": 79,
-        "name": "Beedrill EX",
+        "name": "Beedrill ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -9355,7 +9355,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-80",
         "number": 80,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -9367,7 +9367,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-81",
         "number": 81,
-        "name": "Wugtrio EX",
+        "name": "Wugtrio ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -9379,7 +9379,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-82",
         "number": 82,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -9391,7 +9391,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-83",
         "number": 83,
-        "name": "Giratina EX",
+        "name": "Giratina ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -9403,7 +9403,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-84",
         "number": 84,
-        "name": "Lucario EX",
+        "name": "Lucario ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -9415,7 +9415,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-85",
         "number": 85,
-        "name": "Paldean Clodsire EX",
+        "name": "Paldean Clodsire ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -9427,7 +9427,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-86",
         "number": 86,
-        "name": "Tinkaton EX",
+        "name": "Tinkaton ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -9439,7 +9439,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-87",
         "number": 87,
-        "name": "Bibarel EX",
+        "name": "Bibarel ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -9495,7 +9495,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-92",
         "number": 92,
-        "name": "Pikachu EX",
+        "name": "Pikachu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -9507,7 +9507,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-93",
         "number": 93,
-        "name": "Paldean Clodsire EX",
+        "name": "Paldean Clodsire ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -9519,7 +9519,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-94",
         "number": 94,
-        "name": "Tinkaton EX",
+        "name": "Tinkaton ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -9531,7 +9531,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-95",
         "number": 95,
-        "name": "Bibarel EX",
+        "name": "Bibarel ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -9543,7 +9543,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-96",
         "number": 96,
-        "name": "Giratina EX",
+        "name": "Giratina ex",
         "rarity": "☆☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -9675,7 +9675,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-107",
         "number": 107,
-        "name": "Beedrill EX",
+        "name": "Beedrill ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -9687,7 +9687,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-108",
         "number": 108,
-        "name": "Charizard EX",
+        "name": "Charizard ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -9699,7 +9699,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-109",
         "number": 109,
-        "name": "Wugtrio EX",
+        "name": "Wugtrio ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -9711,7 +9711,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A2b-110",
         "number": 110,
-        "name": "Lucario EX",
+        "name": "Lucario ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -9921,7 +9921,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-12",
         "number": 12,
-        "name": "Decidueye EX",
+        "name": "Decidueye ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -10055,7 +10055,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-23",
         "number": 23,
-        "name": "Dhelmise EX",
+        "name": "Dhelmise ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -10177,7 +10177,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-33",
         "number": 33,
-        "name": "Incineroar EX",
+        "name": "Incineroar ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -10374,7 +10374,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-49",
         "number": 49,
-        "name": "Crabominable EX",
+        "name": "Crabominable ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -10398,7 +10398,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-51",
         "number": 51,
-        "name": "Wishiwashi EX",
+        "name": "Wishiwashi ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -10483,7 +10483,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-58",
         "number": 58,
-        "name": "Alolan Raichu EX",
+        "name": "Alolan Raichu ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -10840,7 +10840,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-87",
         "number": 87,
-        "name": "Lunala EX",
+        "name": "Lunala ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -11047,7 +11047,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-104",
         "number": 104,
-        "name": "Passimian EX",
+        "name": "Passimian ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -11131,7 +11131,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-111",
         "number": 111,
-        "name": "Alolan Muk EX",
+        "name": "Alolan Muk ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -11269,7 +11269,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-122",
         "number": 122,
-        "name": "Solgaleo EX",
+        "name": "Solgaleo ex",
         "rarity": "♢♢♢♢",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -11563,7 +11563,7 @@ export const allSets: CardSet[] = [
         "number": 146,
         "name": "Poison Barb",
         "rarity": "♢♢",
-        "type": "Tool",
+        "type": "Item",
         "set": "Celestial Guardians",
         "packs": [
           "Lunala"
@@ -11574,7 +11574,7 @@ export const allSets: CardSet[] = [
         "number": 147,
         "name": "Leaf Cape",
         "rarity": "♢♢",
-        "type": "Tool",
+        "type": "Item",
         "set": "Celestial Guardians",
         "packs": [
           "Solgaleo"
@@ -11959,7 +11959,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-180",
         "number": 180,
-        "name": "Decidueye EX",
+        "name": "Decidueye ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -11971,7 +11971,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-181",
         "number": 181,
-        "name": "Dhelmise EX",
+        "name": "Dhelmise ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -11983,7 +11983,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-182",
         "number": 182,
-        "name": "Incineroar EX",
+        "name": "Incineroar ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -11995,7 +11995,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-183",
         "number": 183,
-        "name": "Crabominable EX",
+        "name": "Crabominable ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12007,7 +12007,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-184",
         "number": 184,
-        "name": "Wishiwashi EX",
+        "name": "Wishiwashi ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12019,7 +12019,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-185",
         "number": 185,
-        "name": "Alolan Raichu EX",
+        "name": "Alolan Raichu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -12031,7 +12031,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-186",
         "number": 186,
-        "name": "Lunala EX",
+        "name": "Lunala ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -12043,7 +12043,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-187",
         "number": 187,
-        "name": "Passimian EX",
+        "name": "Passimian ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -12055,7 +12055,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-188",
         "number": 188,
-        "name": "Alolan Muk EX",
+        "name": "Alolan Muk ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -12067,7 +12067,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-189",
         "number": 189,
-        "name": "Solgaleo EX",
+        "name": "Solgaleo ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -12167,7 +12167,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-198",
         "number": 198,
-        "name": "Decidueye EX",
+        "name": "Decidueye ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -12179,7 +12179,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-199",
         "number": 199,
-        "name": "Dhelmise EX",
+        "name": "Dhelmise ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -12191,7 +12191,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-200",
         "number": 200,
-        "name": "Incineroar EX",
+        "name": "Incineroar ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fire",
@@ -12203,7 +12203,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-201",
         "number": 201,
-        "name": "Crabominable EX",
+        "name": "Crabominable ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12215,7 +12215,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-202",
         "number": 202,
-        "name": "Wishiwashi EX",
+        "name": "Wishiwashi ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12227,7 +12227,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-203",
         "number": 203,
-        "name": "Alolan Raichu EX",
+        "name": "Alolan Raichu ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Lightning",
@@ -12239,7 +12239,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-204",
         "number": 204,
-        "name": "Lunala EX",
+        "name": "Lunala ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -12251,7 +12251,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-205",
         "number": 205,
-        "name": "Passimian EX",
+        "name": "Passimian ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -12263,7 +12263,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-206",
         "number": 206,
-        "name": "Alolan Muk EX",
+        "name": "Alolan Muk ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Darkness",
@@ -12275,7 +12275,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-207",
         "number": 207,
-        "name": "Solgaleo EX",
+        "name": "Solgaleo ex",
         "rarity": "☆☆",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -12549,7 +12549,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-230",
         "number": 230,
-        "name": "Venusaur EX",
+        "name": "Venusaur ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -12561,7 +12561,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-231",
         "number": 231,
-        "name": "Exeggutor EX",
+        "name": "Exeggutor ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Grass",
@@ -12573,7 +12573,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-232",
         "number": 232,
-        "name": "Blastoise EX",
+        "name": "Blastoise ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12585,7 +12585,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-233",
         "number": 233,
-        "name": "Starmie EX",
+        "name": "Starmie ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Water",
@@ -12597,7 +12597,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-234",
         "number": 234,
-        "name": "Gengar EX",
+        "name": "Gengar ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -12609,7 +12609,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-235",
         "number": 235,
-        "name": "Machamp EX",
+        "name": "Machamp ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -12621,7 +12621,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-236",
         "number": 236,
-        "name": "Marowak EX",
+        "name": "Marowak ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Fighting",
@@ -12633,7 +12633,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-237",
         "number": 237,
-        "name": "Wigglytuff EX",
+        "name": "Wigglytuff ex",
         "rarity": "✨✨",
         "type": "Pokémon",
         "pokemonType": "Colorless",
@@ -12645,7 +12645,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-238",
         "number": 238,
-        "name": "Lunala EX",
+        "name": "Lunala ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Psychic",
@@ -12658,7 +12658,7 @@ export const allSets: CardSet[] = [
       {
         "id": "A3-239",
         "number": 239,
-        "name": "Solgaleo EX",
+        "name": "Solgaleo ex",
         "rarity": "♛",
         "type": "Pokémon",
         "pokemonType": "Metal",
@@ -15241,6 +15241,2964 @@ export const allSets: CardSet[] = [
         "set": "Eevee Grove",
         "packs": [
           "Eevee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "name": "Wisdom of Sea and Sky",
+    "cardsByRarity": {
+      "♢": 66,
+      "♢♢": 51,
+      "♢♢♢": 34,
+      "♢♢♢♢": 10,
+      "☆": 24,
+      "☆☆": 24,
+      "☆☆☆": 2,
+      "✨": 20,
+      "✨✨": 8,
+      "♛": 2
+    },
+    "packs": [
+      {
+        "name": "Lugia",
+        "cardByRarity": {
+          "♢": 42,
+          "♢♢": 31,
+          "♢♢♢": 17,
+          "♢♢♢♢": 5,
+          "☆": 12,
+          "☆☆": 12,
+          "☆☆☆": 1,
+          "✨": 10,
+          "✨✨": 4,
+          "♛": 2
+        },
+        "set": "Wisdom of Sea and Sky"
+      },
+      {
+        "name": "Ho-Oh",
+        "cardByRarity": {
+          "♢": 42,
+          "♢♢": 31,
+          "♢♢♢": 17,
+          "♢♢♢♢": 5,
+          "☆": 12,
+          "☆☆": 12,
+          "☆☆☆": 1,
+          "✨": 10,
+          "✨✨": 4,
+          "♛": 2
+        },
+        "set": "Wisdom of Sea and Sky"
+      }
+    ],
+    "cards": [
+      {
+        "id": "A4-1",
+        "number": 1,
+        "name": "Oddish",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-2",
+        "number": 2,
+        "name": "Gloom",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-3",
+        "number": 3,
+        "name": "Bellossom",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-4",
+        "number": 4,
+        "name": "Tangela",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-5",
+        "number": 5,
+        "name": "Tangrowth",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-6",
+        "number": 6,
+        "name": "Scyther",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-7",
+        "number": 7,
+        "name": "Pinsir",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-8",
+        "number": 8,
+        "name": "Chikorita",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-9",
+        "number": 9,
+        "name": "Bayleef",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-10",
+        "number": 10,
+        "name": "Meganium",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-11",
+        "number": 11,
+        "name": "Ledyba",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-12",
+        "number": 12,
+        "name": "Ledian",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-13",
+        "number": 13,
+        "name": "Hoppip",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-14",
+        "number": 14,
+        "name": "Skiploom",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-15",
+        "number": 15,
+        "name": "Jumpluff",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-16",
+        "number": 16,
+        "name": "Sunkern",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-17",
+        "number": 17,
+        "name": "Sunflora",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-18",
+        "number": 18,
+        "name": "Yanma",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-19",
+        "number": 19,
+        "name": "Yanmega",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-20",
+        "number": 20,
+        "name": "Pineco",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-21",
+        "number": 21,
+        "name": "Shuckle ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-22",
+        "number": 22,
+        "name": "Heracross",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-23",
+        "number": 23,
+        "name": "Cherubi",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-24",
+        "number": 24,
+        "name": "Cherrim",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-25",
+        "number": 25,
+        "name": "Vulpix",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-26",
+        "number": 26,
+        "name": "Ninetales",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-27",
+        "number": 27,
+        "name": "Cyndaquil",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-28",
+        "number": 28,
+        "name": "Quilava",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-29",
+        "number": 29,
+        "name": "Typhlosion",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-30",
+        "number": 30,
+        "name": "Slugma",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-31",
+        "number": 31,
+        "name": "Magcargo",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-32",
+        "number": 32,
+        "name": "Magby",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-33",
+        "number": 33,
+        "name": "Entei",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-34",
+        "number": 34,
+        "name": "Ho-Oh ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-35",
+        "number": 35,
+        "name": "Darumaka",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-36",
+        "number": 36,
+        "name": "Darmanitan",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-37",
+        "number": 37,
+        "name": "Heatmor",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-38",
+        "number": 38,
+        "name": "Poliwag",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-39",
+        "number": 39,
+        "name": "Poliwhirl",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-40",
+        "number": 40,
+        "name": "Politoed",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-41",
+        "number": 41,
+        "name": "Horsea",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-42",
+        "number": 42,
+        "name": "Seadra",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-43",
+        "number": 43,
+        "name": "Kingdra ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-44",
+        "number": 44,
+        "name": "Magikarp",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-45",
+        "number": 45,
+        "name": "Gyarados",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-46",
+        "number": 46,
+        "name": "Totodile",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-47",
+        "number": 47,
+        "name": "Croconaw",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-48",
+        "number": 48,
+        "name": "Feraligatr",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-49",
+        "number": 49,
+        "name": "Marill",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-50",
+        "number": 50,
+        "name": "Azumarill",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-51",
+        "number": 51,
+        "name": "Wooper",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-52",
+        "number": 52,
+        "name": "Quagsire",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-53",
+        "number": 53,
+        "name": "Qwilfish",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-54",
+        "number": 54,
+        "name": "Corsola",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-55",
+        "number": 55,
+        "name": "Remoraid",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-56",
+        "number": 56,
+        "name": "Octillery",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-57",
+        "number": 57,
+        "name": "Delibird",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-58",
+        "number": 58,
+        "name": "Mantine",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-59",
+        "number": 59,
+        "name": "Suicune",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-60",
+        "number": 60,
+        "name": "Corphish",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-61",
+        "number": 61,
+        "name": "Crawdaunt",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-62",
+        "number": 62,
+        "name": "Ducklett",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-63",
+        "number": 63,
+        "name": "Swanna",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-64",
+        "number": 64,
+        "name": "Chinchou",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-65",
+        "number": 65,
+        "name": "Lanturn ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-66",
+        "number": 66,
+        "name": "Pichu",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-67",
+        "number": 67,
+        "name": "Mareep",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-68",
+        "number": 68,
+        "name": "Flaaffy",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-69",
+        "number": 69,
+        "name": "Ampharos",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-70",
+        "number": 70,
+        "name": "Elekid",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-71",
+        "number": 71,
+        "name": "Raikou",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-72",
+        "number": 72,
+        "name": "Emolga",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-73",
+        "number": 73,
+        "name": "Slowpoke",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-74",
+        "number": 74,
+        "name": "Slowking",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-75",
+        "number": 75,
+        "name": "Smoochum",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-76",
+        "number": 76,
+        "name": "Jynx",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-77",
+        "number": 77,
+        "name": "Cleffa",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-78",
+        "number": 78,
+        "name": "Togepi",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-79",
+        "number": 79,
+        "name": "Togetic",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-80",
+        "number": 80,
+        "name": "Togekiss",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-81",
+        "number": 81,
+        "name": "Natu",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-82",
+        "number": 82,
+        "name": "Xatu",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-83",
+        "number": 83,
+        "name": "Espeon ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-84",
+        "number": 84,
+        "name": "Unown",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-85",
+        "number": 85,
+        "name": "Unown",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-86",
+        "number": 86,
+        "name": "Wobbuffet",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-87",
+        "number": 87,
+        "name": "Girafarig",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-88",
+        "number": 88,
+        "name": "Snubbull",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-89",
+        "number": 89,
+        "name": "Granbull",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-90",
+        "number": 90,
+        "name": "Munna",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-91",
+        "number": 91,
+        "name": "Musharna",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-92",
+        "number": 92,
+        "name": "Onix",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-93",
+        "number": 93,
+        "name": "Sudowoodo",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-94",
+        "number": 94,
+        "name": "Gligar",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-95",
+        "number": 95,
+        "name": "Gliscor",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-96",
+        "number": 96,
+        "name": "Swinub",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-97",
+        "number": 97,
+        "name": "Piloswine",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-98",
+        "number": 98,
+        "name": "Mamoswine",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-99",
+        "number": 99,
+        "name": "Phanpy",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-100",
+        "number": 100,
+        "name": "Donphan ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-101",
+        "number": 101,
+        "name": "Tyrogue",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-102",
+        "number": 102,
+        "name": "Hitmontop",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-103",
+        "number": 103,
+        "name": "Larvitar",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-104",
+        "number": 104,
+        "name": "Pupitar",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-105",
+        "number": 105,
+        "name": "Biancle",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-106",
+        "number": 106,
+        "name": "Barbaracle",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-107",
+        "number": 107,
+        "name": "Zubat",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-108",
+        "number": 108,
+        "name": "Golbat",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-109",
+        "number": 109,
+        "name": "Crobat ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-110",
+        "number": 110,
+        "name": "Spinarak",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-111",
+        "number": 111,
+        "name": "Ariados",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-112",
+        "number": 112,
+        "name": "Umbreon ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-113",
+        "number": 113,
+        "name": "Murkrow",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-114",
+        "number": 114,
+        "name": "Honchkrow",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-115",
+        "number": 115,
+        "name": "Sneasel",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-116",
+        "number": 116,
+        "name": "Weavile",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-117",
+        "number": 117,
+        "name": "Houndour",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-118",
+        "number": 118,
+        "name": "Houndoom",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-119",
+        "number": 119,
+        "name": "Tyranitar",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-120",
+        "number": 120,
+        "name": "Absol",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-121",
+        "number": 121,
+        "name": "Forretress",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-122",
+        "number": 122,
+        "name": "Steelix",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-123",
+        "number": 123,
+        "name": "Scizor",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-124",
+        "number": 124,
+        "name": "Skarmory ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-125",
+        "number": 125,
+        "name": "Mawile",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-126",
+        "number": 126,
+        "name": "Klink",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-127",
+        "number": 127,
+        "name": "Klang",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-128",
+        "number": 128,
+        "name": "Klinklang",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-129",
+        "number": 129,
+        "name": "Spearow",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-130",
+        "number": 130,
+        "name": "Fearow",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-131",
+        "number": 131,
+        "name": "Chansey",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-132",
+        "number": 132,
+        "name": "Blissey",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-133",
+        "number": 133,
+        "name": "Kangaskhan",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-134",
+        "number": 134,
+        "name": "Eevee",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-135",
+        "number": 135,
+        "name": "Porygon",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-136",
+        "number": 136,
+        "name": "Porygon2",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-137",
+        "number": 137,
+        "name": "Porygon-Z",
+        "rarity": "♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-138",
+        "number": 138,
+        "name": "Sentret",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-139",
+        "number": 139,
+        "name": "Furret",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-140",
+        "number": 140,
+        "name": "Hoothoot",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-141",
+        "number": 141,
+        "name": "Noctowl",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-142",
+        "number": 142,
+        "name": "Aipom",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-143",
+        "number": 143,
+        "name": "Ambipom",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-144",
+        "number": 144,
+        "name": "Dunsparce",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-145",
+        "number": 145,
+        "name": "Teddiursa",
+        "rarity": "♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-146",
+        "number": 146,
+        "name": "Ursaring",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-147",
+        "number": 147,
+        "name": "Stantler",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-148",
+        "number": 148,
+        "name": "Smeargle",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-149",
+        "number": 149,
+        "name": "Lugia ex",
+        "rarity": "♢♢♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-150",
+        "number": 150,
+        "name": "Bouffalant",
+        "rarity": "♢♢",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-151",
+        "number": 151,
+        "name": "Elemental Switch",
+        "rarity": "♢♢",
+        "type": "Item",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-152",
+        "number": 152,
+        "name": "Squirt Bottle",
+        "rarity": "♢♢",
+        "type": "Item",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-153",
+        "number": 153,
+        "name": "Steel Apron",
+        "rarity": "♢♢",
+        "type": "Tool",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-154",
+        "number": 154,
+        "name": "Dark Pendant",
+        "rarity": "♢♢",
+        "type": "Tool",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-155",
+        "number": 155,
+        "name": "Rescue Scarf",
+        "rarity": "♢♢",
+        "type": "Tool",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-156",
+        "number": 156,
+        "name": "Will",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-157",
+        "number": 157,
+        "name": "Lyra",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-158",
+        "number": 158,
+        "name": "Silver",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-159",
+        "number": 159,
+        "name": "Fisher",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-160",
+        "number": 160,
+        "name": "Jasmine",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-161",
+        "number": 161,
+        "name": "Hiker",
+        "rarity": "♢♢",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-162",
+        "number": 162,
+        "name": "Chikorita",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-163",
+        "number": 163,
+        "name": "Bellossom",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-164",
+        "number": 164,
+        "name": "Heracross",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-165",
+        "number": 165,
+        "name": "Cyndaquil",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-166",
+        "number": 166,
+        "name": "Magby",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-167",
+        "number": 167,
+        "name": "Totodile",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-168",
+        "number": 168,
+        "name": "Qwilfish",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-169",
+        "number": 169,
+        "name": "Octillery",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-170",
+        "number": 170,
+        "name": "Delibird",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-171",
+        "number": 171,
+        "name": "Pichu",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-172",
+        "number": 172,
+        "name": "Ampharos",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-173",
+        "number": 173,
+        "name": "Togepi",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-174",
+        "number": 174,
+        "name": "Xatu",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-175",
+        "number": 175,
+        "name": "Wobbuffet",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-176",
+        "number": 176,
+        "name": "Gligar",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-177",
+        "number": 177,
+        "name": "Spinarak",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-178",
+        "number": 178,
+        "name": "Murkrow",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-179",
+        "number": 179,
+        "name": "Tyranitar",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-180",
+        "number": 180,
+        "name": "Scizor",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-181",
+        "number": 181,
+        "name": "Sentret",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-182",
+        "number": 182,
+        "name": "Hoothoot",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-183",
+        "number": 183,
+        "name": "Stantler",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-184",
+        "number": 184,
+        "name": "Smeargle",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-185",
+        "number": 185,
+        "name": "Blissey",
+        "rarity": "☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-186",
+        "number": 186,
+        "name": "Shuckle ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-187",
+        "number": 187,
+        "name": "Ho-Oh ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-188",
+        "number": 188,
+        "name": "Kingdra ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-189",
+        "number": 189,
+        "name": "Lanturn ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-190",
+        "number": 190,
+        "name": "Espeon ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-191",
+        "number": 191,
+        "name": "Donphan ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-192",
+        "number": 192,
+        "name": "Crobat ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-193",
+        "number": 193,
+        "name": "Umbreon ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-194",
+        "number": 194,
+        "name": "Skarmory ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-195",
+        "number": 195,
+        "name": "Lugia ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-196",
+        "number": 196,
+        "name": "Will",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-197",
+        "number": 197,
+        "name": "Lyra",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-198",
+        "number": 198,
+        "name": "Silver",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-199",
+        "number": 199,
+        "name": "Fisher",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-200",
+        "number": 200,
+        "name": "Jasmine",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-201",
+        "number": 201,
+        "name": "Hiker",
+        "rarity": "☆☆",
+        "type": "Trainer",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-202",
+        "number": 202,
+        "name": "Shuckle ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-203",
+        "number": 203,
+        "name": "Kingdra ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-204",
+        "number": 204,
+        "name": "Lanturn ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-205",
+        "number": 205,
+        "name": "Espeon ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-206",
+        "number": 206,
+        "name": "Donphan ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-207",
+        "number": 207,
+        "name": "Crobat ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-208",
+        "number": 208,
+        "name": "Umbreon ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-209",
+        "number": 209,
+        "name": "Skarmory ex",
+        "rarity": "☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Metal",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-210",
+        "number": 210,
+        "name": "Ho-Oh ex",
+        "rarity": "☆☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-211",
+        "number": 211,
+        "name": "Lugia ex",
+        "rarity": "☆☆☆",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-212",
+        "number": 212,
+        "name": "Yanma",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-213",
+        "number": 213,
+        "name": "Flareon",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-214",
+        "number": 214,
+        "name": "Magikarp",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-215",
+        "number": 215,
+        "name": "Gyarados",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-216",
+        "number": 216,
+        "name": "Vaporeon",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-217",
+        "number": 217,
+        "name": "Magnemite",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-218",
+        "number": 218,
+        "name": "Magneton",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-219",
+        "number": 219,
+        "name": "Jolteon",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-220",
+        "number": 220,
+        "name": "Misdreavus",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-221",
+        "number": 221,
+        "name": "Mankey",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-222",
+        "number": 222,
+        "name": "Primeape",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Fighting",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-223",
+        "number": 223,
+        "name": "Nidoran♀",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-224",
+        "number": 224,
+        "name": "Nidorina",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-225",
+        "number": 225,
+        "name": "Nidoqueen",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-226",
+        "number": 226,
+        "name": "Nidoran♂",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-227",
+        "number": 227,
+        "name": "Nidorino",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-228",
+        "number": 228,
+        "name": "Nidoking",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-229",
+        "number": 229,
+        "name": "Sneasel",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-230",
+        "number": 230,
+        "name": "Lickitung",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-231",
+        "number": 231,
+        "name": "Eevee",
+        "rarity": "✨",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-232",
+        "number": 232,
+        "name": "Yanmega ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-233",
+        "number": 233,
+        "name": "Leafeon ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Grass",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-234",
+        "number": 234,
+        "name": "Gyarados ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-235",
+        "number": 235,
+        "name": "Glaceon ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Water",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-236",
+        "number": 236,
+        "name": "Pachirisu ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Lightning",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-237",
+        "number": 237,
+        "name": "Mismagius ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Psychic",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-238",
+        "number": 238,
+        "name": "Weavile ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Darkness",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia"
+        ]
+      },
+      {
+        "id": "A4-239",
+        "number": 239,
+        "name": "Lickilicky ex",
+        "rarity": "✨✨",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-240",
+        "number": 240,
+        "name": "Ho-Oh ex",
+        "rarity": "♛",
+        "type": "Pokémon",
+        "pokemonType": "Fire",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
+        ]
+      },
+      {
+        "id": "A4-241",
+        "number": 241,
+        "name": "Lugia ex",
+        "rarity": "♛",
+        "type": "Pokémon",
+        "pokemonType": "Colorless",
+        "set": "Wisdom of Sea and Sky",
+        "packs": [
+          "Lugia",
+          "Ho-Oh"
         ]
       }
     ]

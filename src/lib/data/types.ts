@@ -7,6 +7,7 @@ export const cardSetNames = [
   'Celestial Guardians',
   'Extradimensional Crisis',
   'Eevee Grove',
+  'Wisdom of Sea and Sky',
 ] as const;
 
 export type CardSetName = (typeof cardSetNames)[number];
@@ -32,6 +33,8 @@ export const cardPackNames = [
   'Solgaleo',
   'Buzzwole',
   'Eevee',
+  'Ho-Oh',
+  'Lugia',
 ] as const;
 
 export type CardPackName = (typeof cardPackNames)[number];

@@ -15,6 +15,8 @@ const classNamesByPack: Record<CardPackName, string> = {
   Solgaleo: 'bg-pack-[blue-600,sky-400]',
   Buzzwole: 'bg-pack-[red-500,red-800] text-primary-foreground',
   Eevee: 'bg-pack-[yellow-800,yellow-600] text-primary-foreground',
+  'Ho-Oh': 'bg-pack-[orange-200,amber-500]',
+  Lugia: 'bg-pack-[orange-200,blue-400]',
 };
 
 const buttonVariants = cva('text-xs px-2 py-0.5 rounded-full', {
